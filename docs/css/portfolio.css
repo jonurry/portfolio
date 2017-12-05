@@ -1,0 +1,9 @@
+svg {
+  background-color: #303f9f; }
+
+path {
+  fill: #ff4081;
+  fill-opacity: 0;
+  stroke: #c5cae9;
+  -webkit-transition: fill-opacity 3s ease-in-out 1s;
+  transition: fill-opacity 3s ease-in-out 1s; }

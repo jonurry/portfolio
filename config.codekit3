@@ -9,18 +9,41 @@
 	],
 "creatorBuild": "26148",
 "files": {
-	"\/build": {
+	"\/css\/portfolio.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/docs\/css\/portfolio.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/docs": {
 		"ft": 65536,
 		"oA": 1,
-		"oAP": "\/build\/build",
+		"oAP": "\/docs\/docs",
 		"oF": 0
 		},
 	"\/index.html": {
 		"cB": 1,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/build\/index.html",
+		"oAP": "\/docs\/index.html",
 		"oF": 0
+		},
+	"\/js\/animateSVG.js": {
+		"ft": 64,
+		"ma": 1,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/docs\/js\/animateSVG.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
 		},
 	"\/readme.md": {
 		"cB": 0,
@@ -31,7 +54,7 @@
 		"eSQ": 1,
 		"ft": 4096,
 		"oA": 0,
-		"oAP": "\/build\/readme.html",
+		"oAP": "\/docs\/readme.html",
 		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
@@ -50,7 +73,7 @@
 	"displayValue": "portfolio",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-owl",
-	"lastBuiltDate": 533828910
+	"lastBuiltDate": 534100900
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -306,7 +329,7 @@
 	"bowerUseExactVersion": 0,
 	"browserRefreshDelay": 0,
 	"buildFolderActive": 1,
-	"buildFolderName": "build",
+	"buildFolderName": "docs",
 	"cleanBuild": 1,
 	"coffeeLintFlags2": {
 		"arrow_spacing": {
@@ -1441,7 +1464,7 @@
 		},
 	"esLintSourceType": 0,
 	"externalServerAddress": "http:\/\/localhost:8888",
-	"gitIgnoreBuildFolder": 1,
+	"gitIgnoreBuildFolder": 0,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",
 	"jsHintFlags2": {
@@ -2197,7 +2220,7 @@
 			}
 		},
 	"uglifyReservedNamesString": "$",
-	"websiteRelativeRoot": ""
+	"websiteRelativeRoot": "\/docs"
 	},
 "settingsFileVersion": "3"
 }
