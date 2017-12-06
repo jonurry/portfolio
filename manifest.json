@@ -1,5 +1,8 @@
 {
-  "name": "Jon Urry",
+  "background_color": "white",
+  "description":
+    "The portfolio of Jon Urry, web application developer and designer.",
+  "display": "standalone",
   "icons": [
     {
       "src": "img/favicons/android-icon-36x36.png",
@@ -38,7 +41,7 @@
       "density": "4.0"
     }
   ],
-  "start_url": "index.html",
-  "display": "standalone",
-  "orientation": "portrait"
+  "name": "Jon Urry",
+  "orientation": "portrait-primary",
+  "start_url": "index.html"
 }
