@@ -10,6 +10,13 @@ $dividor-colour: #bdbdbd;
 
 svg {
   background-color: $dark-primary-colour;
+  background-image: linear-gradient(
+    -180deg,
+    $primary-colour 0%,
+    $dark-primary-colour 100%
+  );
+  padding-top: 5%;
+  width: 50%;
 }
 
 path {
@@ -17,4 +24,57 @@ path {
   fill-opacity: 0;
   stroke: $light-primary-colour;
   transition: fill-opacity 3s ease-in-out 1s;
+}
+
+// customise carousel and testimonial cards
+
+.carousel {
+  margin: 5rem 0;
+}
+
+.carousel-inner {
+  left: 15%;
+  // top: 50vmin;
+  // transform: translateY(-50%);
+  width: 70%;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  width: 30px;
+  height: 60px;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23bdbdbd' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23bdbdbd' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.carousel-indicators {
+  bottom: 0;
+  li {
+    background-color: rgba($primary-colour, 0.5);
+  }
+  .active {
+    background-color: $accent-colour;
+  }
+}
+
+.card {
+  border: 0 solid $dividor-colour;
+}
+
+.card-title {
+  color: $accent-colour;
+}
+
+.blockquote-footer {
+  color: $primary-colour;
+  margin-top: 0.5rem;
+  a {
+    color: inherit;
+  }
 }
