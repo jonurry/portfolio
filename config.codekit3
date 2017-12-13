@@ -16,13 +16,6 @@
 		"oAP": "\/docs\/browserconfig.xml",
 		"oF": 0
 		},
-	"\/CNAME": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/docs\/CNAME",
-		"oF": 0
-		},
 	"\/css\/portfolio.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -433,7 +426,7 @@
 	"displayValue": "portfolio",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-owl",
-	"lastBuiltDate": 534871362
+	"lastBuiltDate": 534871950
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
