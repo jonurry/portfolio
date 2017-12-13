@@ -16,6 +16,13 @@
 		"oAP": "\/docs\/browserconfig.xml",
 		"oF": 0
 		},
+	"\/CNAME": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/docs\/CNAME",
+		"oF": 0
+		},
 	"\/css\/portfolio.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -42,7 +49,7 @@
 		"oAP": "\/docs\/img\/favicons\/android-icon-144x144.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -53,7 +60,7 @@
 		"oAP": "\/docs\/img\/favicons\/android-icon-192x192.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -64,7 +71,7 @@
 		"oAP": "\/docs\/img\/favicons\/android-icon-36x36.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -75,7 +82,7 @@
 		"oAP": "\/docs\/img\/favicons\/android-icon-48x48.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -86,7 +93,7 @@
 		"oAP": "\/docs\/img\/favicons\/android-icon-72x72.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -97,7 +104,7 @@
 		"oAP": "\/docs\/img\/favicons\/android-icon-96x96.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -108,7 +115,7 @@
 		"oAP": "\/docs\/img\/favicons\/apple-icon-114x114.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -119,7 +126,7 @@
 		"oAP": "\/docs\/img\/favicons\/apple-icon-120x120.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -130,7 +137,7 @@
 		"oAP": "\/docs\/img\/favicons\/apple-icon-144x144.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -141,7 +148,7 @@
 		"oAP": "\/docs\/img\/favicons\/apple-icon-152x152.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -152,7 +159,7 @@
 		"oAP": "\/docs\/img\/favicons\/apple-icon-180x180.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -163,7 +170,7 @@
 		"oAP": "\/docs\/img\/favicons\/apple-icon-57x57.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -174,7 +181,7 @@
 		"oAP": "\/docs\/img\/favicons\/apple-icon-60x60.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -185,7 +192,7 @@
 		"oAP": "\/docs\/img\/favicons\/apple-icon-72x72.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -196,7 +203,7 @@
 		"oAP": "\/docs\/img\/favicons\/apple-icon-76x76.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -207,7 +214,7 @@
 		"oAP": "\/docs\/img\/favicons\/apple-icon-precomposed.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -218,7 +225,7 @@
 		"oAP": "\/docs\/img\/favicons\/apple-icon.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -236,7 +243,7 @@
 		"oAP": "\/docs\/img\/favicons\/favicon-16x16.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -247,7 +254,7 @@
 		"oAP": "\/docs\/img\/favicons\/favicon-32x32.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -258,7 +265,7 @@
 		"oAP": "\/docs\/img\/favicons\/favicon-96x96.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -284,7 +291,7 @@
 		"oAP": "\/docs\/img\/favicons\/ms-icon-144x144.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -295,7 +302,7 @@
 		"oAP": "\/docs\/img\/favicons\/ms-icon-150x150.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -306,7 +313,7 @@
 		"oAP": "\/docs\/img\/favicons\/ms-icon-310x310.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -317,9 +324,30 @@
 		"oAP": "\/docs\/img\/favicons\/ms-icon-70x70.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
+		},
+	"\/img\/Portfolio (30px).png": {
+		"ft": 32768,
+		"iS": 1265,
+		"oA": 0,
+		"oAP": "\/docs\/img\/Portfolio (30px).png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/Portfolio (30px).svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/docs\/img\/Portfolio (30px).svg",
+		"oF": 0,
+		"opt": 1,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/img\/portfolio.png": {
 		"ft": 32768,
@@ -331,6 +359,16 @@
 		"opt": 1,
 		"oT": 1,
 		"q": 100
+		},
+	"\/img\/Portfolio.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/docs\/img\/Portfolio.svg",
+		"oF": 0,
+		"opt": 1,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/img\/profile.svg": {
 		"ft": 2097152,
@@ -395,7 +433,7 @@
 	"displayValue": "portfolio",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-owl",
-	"lastBuiltDate": 534100900
+	"lastBuiltDate": 534871362
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

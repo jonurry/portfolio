@@ -48,3 +48,9 @@ path {
   margin-top: 0.5rem; }
   .blockquote-footer a {
     color: inherit; }
+
+.navbar-nav-svg {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  vertical-align: text-top; }
