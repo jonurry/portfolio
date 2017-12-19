@@ -8,7 +8,7 @@ $primary-text-colour: #212121;
 $secondary-text-colour: #757575;
 $dividor-colour: #bdbdbd;
 
-svg {
+header svg {
   background-color: $dark-primary-colour;
   background-image: linear-gradient(
     -180deg,
@@ -19,11 +19,20 @@ svg {
   width: 50%;
 }
 
-path {
+header svg path {
   fill: $accent-colour;
   fill-opacity: 0;
   stroke: $light-primary-colour;
   transition: fill-opacity 3s ease-in-out 1s;
+}
+
+.navbar-nav-svg {
+  fill: $accent-colour;
+}
+
+a.contact-here {
+  background-color: $primary-colour;
+  color: $accent-colour;
 }
 
 // customise carousel and testimonial cards
