@@ -1,0 +1,61 @@
+// Adapted from the article by Daniel Crisp
+// http://www.creativebloq.com/how-to/create-amazing-effects-with-css-shapes
+
+.clip {
+  // style the text
+  font-family: "Work Sans", Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  font-size: 3rem;
+  text-align: center;
+  text-transform: uppercase;
+
+  // position self (&) and pseudo elements (before / after)
+  &,
+  &::before,
+  &::after {
+    // fill the page
+    position: absolute;
+    // top: 0;
+    left: 0;
+    width: 100%;
+    height: 12rem;
+
+    // centre the text
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    // trick: squeeze the text to get it to wrap
+    padding: 2.3rem 0;
+    margin-top: -6rem;
+    box-sizing: border-box;
+  }
+
+  &::before,
+  &::after {
+    // read the text from the HTML instead of hardcoding in the CSS
+    content: attr(data-content);
+    // set the transition on the clip-path property
+    transition: clip-path 500ms;
+  }
+
+  &::before {
+    // clip the ::before element diagonally to hide the bottom left
+    clip-path: polygon(0 0, 100% 0, 0 100%, 0 100%);
+  }
+
+  &::after {
+    // clip the ::after element diagonally to hide the top left
+    clip-path: polygon(100% 0, 100% 100%, 0 100%, 100% 0);
+  }
+
+  &.testimonials::before {
+    background: $text-icon-colour;
+    color: $dark-primary-colour;
+  }
+
+  &.testimonials::after {
+    background: $dark-primary-colour;
+    color: $text-icon-colour;
+  }
+}

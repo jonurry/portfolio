@@ -16,6 +16,32 @@
 		"oAP": "\/docs\/browserconfig.xml",
 		"oF": 0
 		},
+	"\/css\/clip.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/docs\/css\/clip.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/colours.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/docs\/css\/colours.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/portfolio.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -34,6 +60,86 @@
 		"oA": 1,
 		"oAP": "\/docs\/docs",
 		"oF": 0
+		},
+	"\/img\/backgrounds\/01_1200_800.jpg": {
+		"ft": 16384,
+		"iS": 138699,
+		"oA": 0,
+		"oAP": "\/docs\/img\/backgrounds\/01_1200_800.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/backgrounds\/01_1602_1068.jpg": {
+		"ft": 16384,
+		"iS": 220825,
+		"oA": 0,
+		"oAP": "\/docs\/img\/backgrounds\/01_1602_1068.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/backgrounds\/01_2400_1600.jpg": {
+		"ft": 16384,
+		"iS": 300405,
+		"oA": 0,
+		"oAP": "\/docs\/img\/backgrounds\/01_2400_1600.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/backgrounds\/01_400_600.jpg": {
+		"ft": 16384,
+		"iS": 32841,
+		"oA": 0,
+		"oAP": "\/docs\/img\/backgrounds\/01_400_600.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/backgrounds\/01_800_1200.jpg": {
+		"ft": 16384,
+		"iS": 97293,
+		"oA": 0,
+		"oAP": "\/docs\/img\/backgrounds\/01_800_1200.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/backgrounds\/01_801_534.jpg": {
+		"ft": 16384,
+		"iS": 71682,
+		"oA": 0,
+		"oAP": "\/docs\/img\/backgrounds\/01_801_534.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/backgrounds\/blackbox.jpg": {
+		"ft": 16384,
+		"iS": 158861,
+		"oA": 0,
+		"oAP": "\/docs\/img\/backgrounds\/blackbox.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/img\/backgrounds\/velo-studio.jpg": {
+		"ft": 16384,
+		"iS": 167681,
+		"oA": 0,
+		"oAP": "\/docs\/img\/backgrounds\/velo-studio.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
 		},
 	"\/img\/favicons\/android-icon-144x144.png": {
 		"ft": 32768,
@@ -386,6 +492,16 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/docs\/js\/animateSVG.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/resize.js": {
+		"ft": 64,
+		"ma": 1,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/docs\/js\/resize.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0

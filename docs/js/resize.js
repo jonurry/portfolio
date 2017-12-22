@@ -1,0 +1,2 @@
+!function($){"use strict";function t(){$(".project-content").each(function(){var t;t=$(this).height(),t+=.8*$(window).height(),t+="px",$(this).parent().css("min-height",t)})}$(document).ready(t),$(window).resize(t)}(jQuery);
+//# sourceMappingURL=./resize.js.map

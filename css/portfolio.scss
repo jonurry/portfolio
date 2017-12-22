@@ -1,41 +1,55 @@
-// colours
-$dark-primary-colour: #303f9f;
-$primary-colour: #3f51b5;
-$light-primary-colour: #c5cae9;
-$text-icon-colour: #ffffff;
-$accent-colour: #ff4081;
-$primary-text-colour: #212121;
-$secondary-text-colour: #757575;
-$dividor-colour: #bdbdbd;
+@import "colours";
+@import "clip";
 
-header svg {
-  background-color: $dark-primary-colour;
-  background-image: linear-gradient(
-    -180deg,
-    $primary-colour 0%,
-    $dark-primary-colour 100%
-  );
-  padding-top: 5%;
-  width: 50%;
+.narrow-width {
+  padding-left: 20%;
+  padding-right: 20%;
+  // width: 60%;
 }
 
-header svg path {
-  fill: $accent-colour;
-  fill-opacity: 0;
-  stroke: $light-primary-colour;
-  transition: fill-opacity 3s ease-in-out 1s;
+.full-width {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
 }
 
+// header
+header {
+  svg {
+    background-color: $dark-primary-colour;
+    background-image: linear-gradient(
+      -180deg,
+      $primary-colour 0%,
+      $dark-primary-colour 100%
+    );
+    padding-top: 5%;
+    path {
+      fill: $accent-colour;
+      fill-opacity: 0;
+      stroke: $light-primary-colour;
+      transition: fill-opacity 3s ease-in-out 1s;
+    }
+    width: 50%;
+  }
+  text-align: center;
+}
+
+// navbar
 .navbar-nav-svg {
   fill: $accent-colour;
 }
 
-a.contact-here {
-  background-color: $primary-colour;
-  color: $accent-colour;
+// testimonials
+#testimonials {
+  background-color: $dark-primary-colour;
 }
 
-// customise carousel and testimonial cards
+#carouselTestimonials {
+  margin-top: 15rem;
+}
 
 .carousel {
   margin: 5rem 0;
@@ -65,7 +79,7 @@ a.contact-here {
 .carousel-indicators {
   bottom: 0;
   li {
-    background-color: rgba($primary-colour, 0.5);
+    background-color: rgba($light-primary-colour, 0.5);
   }
   .active {
     background-color: $accent-colour;
@@ -73,11 +87,22 @@ a.contact-here {
 }
 
 .card {
+  background-color: $dark-primary-colour;
   border: 0 solid $dividor-colour;
 }
 
 .card-title {
   color: $accent-colour;
+}
+
+.card-text {
+  color: $text-icon-colour;
+}
+.card footer a {
+  color: $light-primary-colour;
+}
+.card cite {
+  color: $dividor-colour;
 }
 
 .blockquote-footer {
@@ -86,6 +111,40 @@ a.contact-here {
   a {
     color: inherit;
   }
+}
+
+//projects parallax
+.bg-blackbox {
+  background-image: url(/img/backgrounds/blackbox.jpg);
+}
+.bg-velo-studio {
+  background-image: url(/img/backgrounds/velo-studio.jpg);
+}
+.bg-wedding {
+  background-image: url(/img/backgrounds/01_2400_1600.jpg);
+}
+.project-parallax {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 80vh;
+}
+.project-content {
+  background-color: white;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+}
+.project-buttons {
+  margin: -6em auto 4em auto;
+  width: 20em;
+  width: fit-content; //override with actual width if supported by browser
+}
+.button-icon {
+  fill: $text-icon-colour;
+  width: 1em;
 }
 
 //navbar
