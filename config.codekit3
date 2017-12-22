@@ -16,6 +16,13 @@
 		"oAP": "\/docs\/browserconfig.xml",
 		"oF": 0
 		},
+	"\/CNAME": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/docs\/CNAME",
+		"oF": 1
+		},
 	"\/css\/clip.scss": {
 		"aP": 0,
 		"bl": 0,
