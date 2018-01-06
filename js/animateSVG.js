@@ -83,7 +83,7 @@
         setTimeout(
           function() {
             $(".spectacles").css("fill", "#212121");
-            $("path").css("stroke", "#c5cae9");
+            $("#svg path").css("stroke", "#c5cae9");
           },
           duration * 1000,
           true
