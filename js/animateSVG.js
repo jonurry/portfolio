@@ -22,6 +22,7 @@
     if (!supportsInlineSvg) return;
 
     var begin;
+    var duration;
     var durations;
     var paths;
     var svg;
@@ -52,19 +53,47 @@
               begin +
               "s ease-in-out" +
               ", " +
-              "fill-opacity 4s ease-in-out";
+              "stroke 4s ease-in-out" +
+              ", " +
+              "fill-opacity 4s ease-in-out" +
+              ", " +
+              "fill 4s ease-in-out";
             path.style.strokeDashoffset = "0";
             begin += durations[i]; // + 0.1;
           });
         }
+
         // Fill in the SVG drawing once the strokes have finished animating
+        // and change the shirt fill colour to dark blue -> pink gradient
+        duration = durations.reduce(function(accumulator, currentValue) {
+          return accumulator + currentValue;
+        });
         setTimeout(
           function() {
+            $(".shirt").css("fill", "url(#t-shirt)");
             $("path").css("fill-opacity", "1");
           },
-          durations.reduce(function(accumulator, currentValue) {
-            return accumulator + currentValue;
-          }) * 1000,
+          duration * 1000,
+          true
+        );
+
+        // 4 seconds later, change the spectacles fill colour to near black
+        duration += 4;
+        setTimeout(
+          function() {
+            $(".spectacles").css("fill", "#212121");
+          },
+          duration * 1000,
+          true
+        );
+
+        // 4 seconds later change the path stroke colour to light blue
+        duration += 4;
+        setTimeout(
+          function() {
+            $("path").css("stroke", "#c5cae9");
+          },
+          duration * 1000,
           true
         );
       }

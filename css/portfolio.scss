@@ -1,10 +1,8 @@
 @import "colours";
 @import "clip";
 
-.narrow-width {
-  padding-left: 20%;
-  padding-right: 20%;
-  // width: 60%;
+body {
+  margin-top: 74px; // to accommodate fixed navbar height
 }
 
 .full-width {
@@ -16,85 +14,143 @@
   margin-right: -50vw;
 }
 
-// header
-header {
-  svg {
-    background-color: $dark-primary-colour;
-    background-image: linear-gradient(
-      -180deg,
-      $primary-colour 0%,
-      $dark-primary-colour 100%
-    );
-    padding-top: 5%;
-    path {
-      fill: $accent-colour;
-      fill-opacity: 0;
-      stroke: $light-primary-colour;
-      transition: fill-opacity 3s ease-in-out 1s;
-    }
-    width: 50%;
+.narrow-width {
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  .narrow-width {
+    padding-left: 5%;
+    padding-right: 5%;
   }
-  text-align: center;
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .narrow-width {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .narrow-width {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .narrow-width {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
 }
 
 // navbar
 .navbar-nav-svg {
+  display: inline-block;
   fill: $accent-colour;
+  height: 2rem;
+  vertical-align: text-top;
+  width: 2rem;
+}
+
+// header
+.profile-info-container {
+  color: $dark-primary-colour;
+  margin: 3rem auto;
+  .h4 {
+    color: $accent-colour;
+    margin-bottom: 1.5rem;
+  }
+}
+header {
+  h1 {
+    color: $dark-primary-colour;
+  }
+  .lead {
+    color: $secondary-text-colour;
+  }
+  svg {
+    background-color: $text-icon-colour;
+    padding-top: 5%;
+    path {
+      fill: $dark-primary-colour;
+      fill-opacity: 0;
+      stroke: $dark-primary-colour;
+    }
+    width: 100%;
+  }
+  text-align: center;
+}
+
+.header-flex-container {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.profile-info-container,
+.profile-svg-container {
+  flex: 1 0 15rem;
+  margin: 2.5rem 1rem;
+}
+
+// work
+#work {
+  background-color: $accent-colour;
+  color: $text-icon-colour;
 }
 
 // testimonials
 #testimonials {
   background-color: $dark-primary-colour;
+  color: $text-icon-colour;
 }
-
-#carouselTestimonials {
-  margin-top: 15rem;
-}
-
-.carousel {
-  margin: 5rem 0;
-}
-
-.carousel-inner {
-  left: 15%;
-  // top: 50vmin;
-  // transform: translateY(-50%);
-  width: 70%;
-}
-
-.carousel-control-next-icon,
-.carousel-control-prev-icon {
-  width: 30px;
-  height: 60px;
-}
-
-.carousel-control-prev-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23bdbdbd' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
-}
-
-.carousel-control-next-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23bdbdbd' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
-}
-
-.carousel-indicators {
-  bottom: 0;
-  li {
-    background-color: rgba($light-primary-colour, 0.5);
-  }
-  .active {
-    background-color: $accent-colour;
-  }
-}
-
-.card {
+.card-container {
+  align-items: center;
   background-color: $dark-primary-colour;
-  border: 0 solid $dividor-colour;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-
+.card {
+  background: -moz-linear-gradient(
+    top,
+    rgba(63, 81, 181, 1) 0%,
+    rgba(125, 185, 232, 0) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    rgba(63, 81, 181, 1) 0%,
+    rgba(125, 185, 232, 0) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    rgba(63, 81, 181, 1) 0%,
+    rgba(125, 185, 232, 0) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(
+      startColorstr="#3f51b5",
+      endColorstr="#007db9e8",
+      GradientType=0
+    ); /* IE6-9 */
+  border: 0 solid $dividor-colour;
+  flex: 1 0 25rem;
+  margin: 3rem;
+  padding-top: 2rem;
+}
 .card-title {
   color: $accent-colour;
+  // text-align: center;
 }
-
 .card-text {
   color: $text-icon-colour;
 }
@@ -104,7 +160,6 @@ header {
 .card cite {
   color: $dividor-colour;
 }
-
 .blockquote-footer {
   color: $primary-colour;
   margin-top: 0.5rem;
@@ -131,6 +186,10 @@ header {
   background-size: cover;
   min-height: 80vh;
 }
+#projects {
+  background-color: $text-icon-colour;
+  color: $primary-text-colour;
+}
 .project-content {
   background-color: white;
   bottom: 0;
@@ -138,19 +197,49 @@ header {
   width: 100%;
 }
 .project-buttons {
-  margin: -6em auto 4em auto;
-  width: 20em;
-  width: fit-content; //override with actual width if supported by browser
+  margin: -6em auto 6em auto;
+  width: 22em;
+  width: max-content; //override with actual width if supported by browser
 }
 .button-icon {
   fill: $text-icon-colour;
   width: 1em;
 }
+.h2-blackbox {
+  font-family: "Passion One";
+  font-size: 8rem;
+  line-height: 6rem;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+.h2-wedding {
+  color: $accent-colour;
+  font-family: "Lovers Quarrel";
+  font-size: 8rem;
+  padding-bottom: 2rem;
+  text-align: center;
+}
 
-//navbar
-.navbar-nav-svg {
-  display: inline-block;
-  width: 2rem;
-  height: 2rem;
-  vertical-align: text-top;
+// contact
+.contact {
+  background-color: $dark-primary-colour;
+  color: $text-icon-colour;
+}
+.contact-icon {
+  height: 32px;
+  width: 32px;
+}
+
+// Typography Headings
+// style the text
+.contact h1,
+.projects h1,
+.work h1,
+.testimonials h1 {
+  font-family: "Work Sans", Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  font-size: 3rem;
+  line-height: 8rem;
+  text-align: center;
+  text-transform: uppercase;
 }

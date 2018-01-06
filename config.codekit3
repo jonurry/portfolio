@@ -486,6 +486,27 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/img\/profiles\/dimitris-lyras.jpg": {
+		"ft": 16384,
+		"iS": 11113,
+		"oA": 0,
+		"oAP": "\/docs\/img\/profiles\/dimitris-lyras.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/img\/velo.studio.png": {
+		"ft": 32768,
+		"iS": 25921,
+		"oA": 0,
+		"oAP": "\/docs\/img\/velo.studio.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/index.html": {
 		"cB": 1,
 		"ft": 8192,
@@ -521,6 +542,84 @@
 		"oO": 0,
 		"oS": 1
 		},
+	"\/open-iconic\/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/docs\/open-iconic\/.gitignore",
+		"oF": 0
+		},
+	"\/open-iconic\/bower.json": {
+		"ft": 524288,
+		"oA": 0,
+		"oAP": "\/docs\/open-iconic\/bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/open-iconic\/ICON-LICENSE": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/docs\/open-iconic\/ICON-LICENSE",
+		"oF": 0
+		},
+	"\/open-iconic\/package.json": {
+		"ft": 524288,
+		"oA": 0,
+		"oAP": "\/docs\/open-iconic\/package.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/open-iconic\/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/docs\/open-iconic\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/open-iconic\/svg\/envelope-closed.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/docs\/open-iconic\/svg\/envelope-closed.svg",
+		"oF": 0,
+		"opt": 1,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/open-iconic\/svg\/microphone.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/docs\/open-iconic\/svg\/microphone.svg",
+		"oF": 0,
+		"opt": 1,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/open-iconic\/svg\/phone.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/docs\/open-iconic\/svg\/phone.svg",
+		"oF": 0,
+		"opt": 1,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/readme.md": {
 		"cB": 0,
 		"cS": 0,
@@ -549,7 +648,7 @@
 	"displayValue": "portfolio",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-owl",
-	"lastBuiltDate": 535652761
+	"lastBuiltDate": 536841300
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

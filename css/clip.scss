@@ -18,7 +18,7 @@
     // top: 0;
     left: 0;
     width: 100%;
-    height: 12rem;
+    height: 12.1rem; // slightly increase height to hide background line that occasionally appears
 
     // centre the text
     display: flex;
@@ -27,7 +27,7 @@
 
     // trick: squeeze the text to get it to wrap
     padding: 2.3rem 0;
-    margin-top: -6rem;
+    // margin-top: -5.9rem;
     box-sizing: border-box;
   }
 
@@ -49,13 +49,48 @@
     clip-path: polygon(100% 0, 100% 100%, 0 100%, 100% 0);
   }
 
-  &.testimonials::before {
+  &.clip-work::before {
     background: $text-icon-colour;
     color: $dark-primary-colour;
   }
 
-  &.testimonials::after {
+  &.clip-work::after {
+    background: $accent-colour;
+    color: $text-icon-colour;
+  }
+
+  &.clip-testimonials::before {
+    background: $accent-colour;
+    color: $dark-primary-colour;
+  }
+
+  &.clip-testimonials::after {
     background: $dark-primary-colour;
     color: $text-icon-colour;
   }
+
+  &.clip-projects::before {
+    background: $dark-primary-colour;
+    color: $text-icon-colour;
+  }
+
+  &.clip-projects::after {
+    background: $text-icon-colour;
+    color: $primary-text-colour;
+  }
+
+  &.clip-contact::before {
+    background: $text-icon-colour;
+    color: $dark-primary-colour;
+  }
+
+  &.clip-contact::after {
+    background: $dark-primary-colour;
+    color: $text-icon-colour;
+  }
+}
+
+.clip-height {
+  min-height: 6rem;
+  margin-bottom: 6rem;
 }
