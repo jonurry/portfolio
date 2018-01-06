@@ -107,13 +107,13 @@ header {
 }
 
 // work
-#work {
+.work {
   background-color: $accent-colour;
   color: $text-icon-colour;
 }
 
 // testimonials
-#testimonials {
+.testimonials {
   background-color: $dark-primary-colour;
   color: $text-icon-colour;
 }
@@ -222,6 +222,9 @@ header {
   font-size: 8rem;
   padding-bottom: 2rem;
   text-align: center;
+}
+.velo-studio-logo {
+  margin-bottom: 2rem;
 }
 
 // contact

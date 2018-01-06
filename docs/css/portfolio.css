@@ -60,7 +60,8 @@
 
 .clip-height {
   min-height: 6rem;
-  margin-bottom: 6rem; }
+  margin-bottom: 6rem;
+  margin-top: -0.1rem; }
 
 body {
   margin-top: 74px; }
@@ -153,11 +154,11 @@ header {
           flex: 1 0 15rem;
   margin: 2.5rem 1rem; }
 
-#work {
+.work {
   background-color: #ff4081;
   color: #ffffff; }
 
-#testimonials {
+.testimonials {
   background-color: #303f9f;
   color: #ffffff; }
 
@@ -263,6 +264,9 @@ header {
   font-size: 8rem;
   padding-bottom: 2rem;
   text-align: center; }
+
+.velo-studio-logo {
+  margin-bottom: 2rem; }
 
 .contact {
   background-color: #303f9f;
