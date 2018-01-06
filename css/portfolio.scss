@@ -70,6 +70,10 @@ body {
   }
 }
 header {
+  button {
+    height: 64px;
+    width: 64px;
+  }
   h1 {
     color: $dark-primary-colour;
   }

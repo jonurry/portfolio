@@ -78,19 +78,11 @@
         );
 
         // 4 seconds later, change the spectacles fill colour to near black
+        // and change the path stroke colour to light blue
         duration += 4;
         setTimeout(
           function() {
             $(".spectacles").css("fill", "#212121");
-          },
-          duration * 1000,
-          true
-        );
-
-        // 4 seconds later change the path stroke colour to light blue
-        duration += 4;
-        setTimeout(
-          function() {
             $("path").css("stroke", "#c5cae9");
           },
           duration * 1000,

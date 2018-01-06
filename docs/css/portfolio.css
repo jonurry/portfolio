@@ -113,6 +113,9 @@ body {
 
 header {
   text-align: center; }
+  header button {
+    height: 64px;
+    width: 64px; }
   header h1 {
     color: #303f9f; }
   header .lead {
