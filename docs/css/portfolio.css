@@ -268,12 +268,50 @@ header {
 .velo-studio-logo {
   margin-bottom: 2rem; }
 
+.contact-container {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #303f9f;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.contact-card {
+  /* FF3.6-15 */
+  /* Chrome10-25,Safari5.1-6 */
+  background: -webkit-gradient(linear, left top, left bottom, from(#3f51b5), to(rgba(125, 185, 232, 0)));
+  background: linear-gradient(to bottom, #3f51b5 0%, rgba(125, 185, 232, 0) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#3f51b5", endColorstr="#007db9e8", GradientType=0 );
+  /* IE6-9 */
+  border: 0 solid #bdbdbd;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 13rem;
+          flex: 1 0 13rem;
+  margin: 1rem;
+  padding: 1rem;
+  text-align: center; }
+  .contact-card a {
+    color: #ffffff; }
+
 .contact {
   background-color: #303f9f;
   color: #ffffff; }
 
 .contact-icon {
+  fill: #ff4081;
   height: 32px;
+  margin: 0.5rem;
   width: 32px; }
 
 .contact h1,

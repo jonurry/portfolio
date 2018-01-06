@@ -600,6 +600,26 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/open-iconic\/svg\/github.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/docs\/open-iconic\/svg\/github.svg",
+		"oF": 0,
+		"opt": 1,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/open-iconic\/svg\/linked-in.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/docs\/open-iconic\/svg\/linked-in.svg",
+		"oF": 0,
+		"opt": 1,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/open-iconic\/svg\/microphone.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -615,6 +635,16 @@
 		"miP": 0,
 		"oA": 0,
 		"oAP": "\/docs\/open-iconic\/svg\/phone.svg",
+		"oF": 0,
+		"opt": 1,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/open-iconic\/svg\/twitter.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/docs\/open-iconic\/svg\/twitter.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 3758088159,
@@ -648,7 +678,7 @@
 	"displayValue": "portfolio",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-owl",
-	"lastBuiltDate": 536948260
+	"lastBuiltDate": 536952673
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

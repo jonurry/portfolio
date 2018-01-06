@@ -228,12 +228,52 @@ header {
 }
 
 // contact
+.contact-container {
+  align-items: center;
+  background-color: $dark-primary-colour;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.contact-card {
+  a {
+    color: $text-icon-colour;
+  }
+  background: -moz-linear-gradient(
+    top,
+    rgba(63, 81, 181, 1) 0%,
+    rgba(125, 185, 232, 0) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    rgba(63, 81, 181, 1) 0%,
+    rgba(125, 185, 232, 0) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    rgba(63, 81, 181, 1) 0%,
+    rgba(125, 185, 232, 0) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(
+      startColorstr="#3f51b5",
+      endColorstr="#007db9e8",
+      GradientType=0
+    ); /* IE6-9 */
+  border: 0 solid $dividor-colour;
+  flex: 1 0 13rem;
+  margin: 1rem;
+  padding: 1rem;
+  text-align: center;
+}
 .contact {
   background-color: $dark-primary-colour;
   color: $text-icon-colour;
 }
 .contact-icon {
+  fill: $accent-colour;
   height: 32px;
+  margin: 0.5rem;
   width: 32px;
 }
 
