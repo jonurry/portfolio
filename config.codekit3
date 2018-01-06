@@ -434,22 +434,22 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/Portfolio (30px).png": {
+	"\/img\/portfolio-30px.png": {
 		"ft": 32768,
 		"iS": 1265,
 		"oA": 0,
-		"oAP": "\/docs\/img\/Portfolio (30px).png",
+		"oAP": "\/docs\/img\/portfolio-30px.png",
 		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/Portfolio (30px).svg": {
+	"\/img\/portfolio-30px.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/docs\/img\/Portfolio (30px).svg",
+		"oAP": "\/docs\/img\/portfolio-30px.svg",
 		"oF": 1,
 		"opt": 1,
 		"plM": 3758088159,
@@ -648,7 +648,7 @@
 	"displayValue": "portfolio",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-owl",
-	"lastBuiltDate": 536934485
+	"lastBuiltDate": 536948260
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
