@@ -239,6 +239,10 @@ header {
 .contact-card {
   a {
     color: $text-icon-colour;
+    text-decoration: none;
+  }
+  a::hover {
+    text-decoration: none;
   }
   background: -moz-linear-gradient(
     top,

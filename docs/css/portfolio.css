@@ -302,7 +302,10 @@ header {
   padding: 1rem;
   text-align: center; }
   .contact-card a {
-    color: #ffffff; }
+    color: #ffffff;
+    text-decoration: none; }
+  .contact-card a::hover {
+    text-decoration: none; }
 
 .contact {
   background-color: #303f9f;
