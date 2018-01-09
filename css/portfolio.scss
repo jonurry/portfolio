@@ -255,9 +255,6 @@ header {
     color: $text-icon-colour;
     text-decoration: none;
   }
-  a::hover {
-    text-decoration: none;
-  }
   background: -moz-linear-gradient(
     top,
     rgba(63, 81, 181, 1) 0%,
@@ -292,7 +289,12 @@ header {
   fill: $accent-colour;
   height: 32px;
   margin: 0.5rem;
+  transition: all 3s;
+  transition-timing: ease-in-out;
   width: 32px;
+  &:hover {
+    transform: rotate(1080deg);
+  }
 }
 
 // Typography Headings

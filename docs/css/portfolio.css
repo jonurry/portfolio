@@ -315,8 +315,6 @@ header {
   .contact-card a {
     color: #ffffff;
     text-decoration: none; }
-  .contact-card a::hover {
-    text-decoration: none; }
 
 .contact {
   background-color: #303f9f;
@@ -326,7 +324,13 @@ header {
   fill: #ff4081;
   height: 32px;
   margin: 0.5rem;
+  -webkit-transition: all 3s;
+  transition: all 3s;
+  transition-timing: ease-in-out;
   width: 32px; }
+  .contact-icon:hover {
+    -webkit-transform: rotate(1080deg);
+            transform: rotate(1080deg); }
 
 .contact h1,
 .projects h1,
