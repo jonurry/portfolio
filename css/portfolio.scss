@@ -58,6 +58,20 @@ body {
   height: 2rem;
   vertical-align: text-top;
   width: 2rem;
+  :hover {
+    fill: $primary-colour;
+  }
+}
+
+.btn-primary {
+  background-color: $primary-colour;
+  border-color: $primary-colour;
+  color: $text-icon-colour;
+  &:hover {
+    background-color: $accent-colour;
+    border-color: $accent-colour;
+    color: $text-icon-colour;
+  }
 }
 
 // header
