@@ -116,6 +116,11 @@ body {
     border-color: #ff4081;
     color: #ffffff; }
 
+a {
+  color: #3f51b5; }
+  a:hover {
+    color: #ff4081; }
+
 .profile-info-container {
   color: #303f9f;
   margin: 3rem auto; }

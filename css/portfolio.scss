@@ -74,6 +74,13 @@ body {
   }
 }
 
+a {
+  color: $primary-colour;
+  &:hover {
+    color: $accent-colour;
+  }
+}
+
 // header
 .profile-info-container {
   color: $dark-primary-colour;
