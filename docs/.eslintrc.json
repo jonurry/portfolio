@@ -1,0 +1,1 @@
+{"rules":{"linebreak-style":["error","unix"],"quotes":["error","single"],"indent":["error","space"],"semi":["error","always"]},"env":{"browser":true,"es6":true,"commonjs":true},"parserOptions":{"sourceType":"module"},"extends":"eslint:recommended"}

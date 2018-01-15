@@ -9,6 +9,30 @@
 	],
 "creatorBuild": "26148",
 "files": {
+	"\/.eslintrc.json": {
+		"ft": 524288,
+		"oA": 0,
+		"oAP": "\/docs\/.eslintrc.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/.vscode\/launch.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/docs\/.vscode\/launch.json",
+		"oF": 1,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/.vscode\/settings.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/docs\/.vscode\/settings.json",
+		"oF": 1,
+		"oO": 0,
+		"oS": 1
+		},
 	"\/browserconfig.xml": {
 		"cB": 0,
 		"ft": 8192,
@@ -755,7 +779,7 @@
 	"displayValue": "portfolio",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-owl",
-	"lastBuiltDate": 537704584
+	"lastBuiltDate": 537705878
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
