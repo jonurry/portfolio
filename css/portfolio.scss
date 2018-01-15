@@ -132,6 +132,24 @@ header {
   background-color: $accent-colour;
   color: $text-icon-colour;
 }
+.badge-primary {
+  background-color: rgba($dark-primary-colour, 0.7);
+}
+.badge-secondary {
+  // background-color: rgba($dark-primary-colour, 0.4);
+  background-color: rgba(darken($accent-colour, 80%), 0.2);
+}
+li {
+  margin: 1rem 0;
+}
+.never-stop-learning {
+  .badge {
+    background-color: rgba(darken($accent-colour, 30%), 0.3);
+    font-size: 1.5rem;
+    padding: 1rem;
+  }
+  // color: $dark-primary-colour;
+}
 
 // testimonials
 .testimonials {
@@ -170,6 +188,7 @@ header {
   border: 0 solid $dividor-colour;
   flex: 1 0 25rem;
   margin: 3rem;
+  max-width: 40rem;
   padding-top: 2rem;
 }
 .card-title {
@@ -191,6 +210,10 @@ header {
   a {
     color: inherit;
   }
+}
+.show-testimonials {
+  width: 100%;
+  padding: 0 calc(50% - 6rem);
 }
 
 //projects parallax
@@ -285,6 +308,7 @@ header {
   border: 0 solid $dividor-colour;
   flex: 1 0 13rem;
   margin: 1rem;
+  max-width: 20rem;
   padding: 1rem;
   text-align: center;
 }

@@ -174,6 +174,20 @@ header {
   background-color: #ff4081;
   color: #ffffff; }
 
+.badge-primary {
+  background-color: rgba(48, 63, 159, 0.7); }
+
+.badge-secondary {
+  background-color: rgba(0, 0, 0, 0.2); }
+
+li {
+  margin: 1rem 0; }
+
+.never-stop-learning .badge {
+  background-color: rgba(166, 0, 56, 0.3);
+  font-size: 1.5rem;
+  padding: 1rem; }
+
 .testimonials {
   background-color: #303f9f;
   color: #ffffff; }
@@ -209,6 +223,7 @@ header {
       -ms-flex: 1 0 25rem;
           flex: 1 0 25rem;
   margin: 3rem;
+  max-width: 40rem;
   padding-top: 2rem; }
 
 .card-title {
@@ -228,6 +243,10 @@ header {
   margin-top: 0.5rem; }
   .blockquote-footer a {
     color: inherit; }
+
+.show-testimonials {
+  width: 100%;
+  padding: 0 calc(50% - 6rem); }
 
 .bg-blackbox {
   background-image: url(/img/backgrounds/blackbox.jpg); }
@@ -315,6 +334,7 @@ header {
       -ms-flex: 1 0 13rem;
           flex: 1 0 13rem;
   margin: 1rem;
+  max-width: 20rem;
   padding: 1rem;
   text-align: center; }
   .contact-card a {
