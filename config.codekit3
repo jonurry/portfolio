@@ -768,6 +768,13 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"\/sitemap.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/docs\/sitemap.xml",
+		"oF": 1
 		}
 	},
 "hooks": [
