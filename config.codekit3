@@ -86,11 +86,18 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/cv\/Jon Urry CV (Web Developer).docx": {
+	"\/cv\/jon.urry.cv.docx": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/docs\/cv\/Jon Urry CV (Web Developer).docx",
+		"oAP": "\/docs\/cv\/jon.urry.cv.docx",
+		"oF": 1
+		},
+	"\/cv\/jon.urry.cv.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/docs\/cv\/jon.urry.cv.pdf",
 		"oF": 1
 		},
 	"\/docs": {
