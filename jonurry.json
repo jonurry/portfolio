@@ -1,0 +1,13 @@
+{
+  "candidate": "Jon Urry",
+  "job": "Web application developer",
+  "portfolio": "http://jon.urry.me",
+  "contact": [
+    { "email": "mailto:jon@urry.me" },
+    { "github": "https://github.com/jonurry" },
+    { "linkedin": "https://www.linkedin.com/in/jonurry" },
+    { "mobile": "tel:+44-7986-371-299" },
+    { "skype": "skype:jonurry" },
+    { "twitter": "https://twitter.com/jonurry" }
+  ]
+}

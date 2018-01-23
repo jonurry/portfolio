@@ -737,6 +737,14 @@
 		"oAP": "\/docs\/index.html",
 		"oF": 0
 		},
+	"\/jonurry.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/docs\/jonurry.json",
+		"oF": 1,
+		"oO": 0,
+		"oS": 1
+		},
 	"\/js\/animateSVG.js": {
 		"ft": 64,
 		"ma": 1,
@@ -810,7 +818,7 @@
 	"displayValue": "portfolio",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-owl",
-	"lastBuiltDate": 537705878
+	"lastBuiltDate": 538398060
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
