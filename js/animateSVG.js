@@ -32,7 +32,7 @@ if (typeof jQuery === 'undefined') {
 
     svg = document.getElementById('svg');
     if (svg !== null) {
-      paths = toArray(svg.querySelectorAll('#svg path'));
+      paths = toArray(svg.querySelectorAll('#svg path, #svg ellipse'));
       if (paths.length > 0) {
         durations = paths.map(function(path) {
           var length = path.getTotalLength();
@@ -86,6 +86,7 @@ if (typeof jQuery === 'undefined') {
         setTimeout(
           function() {
             $('.spectacles').css('fill', '#212121');
+            $('.iris').css('fill', '#a1cAf1'); // baby blue eyes
             $('#svg path').css('stroke', '#c5cae9');
           },
           duration * 1000,
