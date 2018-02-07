@@ -321,7 +321,7 @@ li {
   height: 32px;
   margin: 0.5rem;
   transition: all 3s;
-  transition-timing: ease-in-out;
+  transition-timing-function: ease-in-out;
   width: 32px;
   &:hover {
     transform: rotate(1080deg);

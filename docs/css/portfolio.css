@@ -351,7 +351,8 @@ li {
   margin: 0.5rem;
   -webkit-transition: all 3s;
   transition: all 3s;
-  transition-timing: ease-in-out;
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
   width: 32px; }
   .contact-icon:hover {
     -webkit-transform: rotate(1080deg);

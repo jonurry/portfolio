@@ -7,7 +7,7 @@
 		"uuidString": "21ADEDC7-41CD-4ED9-8732-F9CDE9A77FDE"
 		}
 	],
-"creatorBuild": "26148",
+"creatorBuild": "26261",
 "files": {
 	"\/.eslintrc.json": {
 		"ft": 524288,
@@ -1399,6 +1399,10 @@
 		"id-match": {
 			"active": 0,
 			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+			},
+		"implicit-arrow-linebreak": {
+			"active": 0,
+			"optionString": "'beside'"
 			},
 		"indent": {
 			"active": 0,
