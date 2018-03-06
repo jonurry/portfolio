@@ -70,8 +70,9 @@
               <a class="dropdown-item" href="#project-blackbox">Black Box (Game)</a>
               <a class="dropdown-item" href="#project-velo-studio">Velo Studio (Shop)</a>
               <a class="dropdown-item" href="#project-wedding">Wedding (Website)</a>
+              <a class="dropdown-item" href="#project-ejss3">Eloquent JavaScript Solutions (Website/API)</a>
               <!-- <a class="dropdown-item" href="#">Spotify to Tidal (API)</a> -->
-              <!-- <a class="dropdown-item" href="#">Strava Polar Tracker (API)</a> -->
+              <!-- <a class="dropdown-item" href="#">Strava Polariser (Website/API)</a> -->
             </div>
           </li>
           <li class="nav-item">
@@ -1356,6 +1357,164 @@
                     <p>Reduce the size of code files to make them faster to download.</p>
                     <p class="lead">Optimise Images</p>
                     <p>Reduce the size of images so that they can be downloaded faster.</p>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div id="project-ejss3" class="full-width">
+        <a href="http://eloquent-javascript-solutions.urry.me">
+          <div class="project-parallax bg-ejss3"></div>
+        </a>
+        <div class="project-content narrow-width">
+          <div class="project-buttons">
+            <a href="https://github.com/jonurry/eloquent-javascript-solutions">
+              <button type="button" class="btn btn-primary btn-lg">
+                <svg class="button-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 499.36">
+                  <title>GitHub</title>
+                  <path visibility="visible" d="M256 0C114.64 0 0 114.61 0 256c0 113.09 73.34 209 175.08 242.9 12.8 2.35 17.47-5.56 17.47-12.34 0-6.08-.22-22.18-.35-43.54-71.2 15.49-86.2-34.34-86.2-34.34-11.64-29.57-28.42-37.45-28.42-37.45-23.27-15.84 1.73-15.55 1.73-15.55 25.69 1.81 39.21 26.38 39.21 26.38 22.84 39.12 59.92 27.82 74.5 21.27 2.33-16.54 8.94-27.82 16.25-34.22-56.84-6.43-116.6-28.43-116.6-126.49 0-27.95 10-50.8 26.35-68.69-2.63-6.48-11.42-32.5 2.51-67.75 0 0 21.49-6.88 70.4 26.24a242.65 242.65 0 0 1 128.18 0c48.87-33.13 70.33-26.24 70.33-26.24 14 35.25 5.18 61.27 2.55 67.75 16.41 17.9 26.31 40.75 26.31 68.69 0 98.35-59.85 120-116.88 126.32 9.19 7.9 17.38 23.53 17.38 47.41 0 34.22-.31 61.83-.31 70.23 0 6.85 4.61 14.81 17.6 12.31C438.72 464.97 512 369.08 512 256.02 512 114.62 397.37 0 256 0z"
+                    fill-rule="evenodd">
+                  </path>
+                </svg>
+                &nbsp;&nbsp;Source Code
+              </button>
+            </a>
+            <a href="http://eloquent-javascript-solutions.urry.me">
+              <button type="button" class="btn btn-primary btn-lg">Visit Website</button>
+            </a>
+          </div>
+          <h2 class="h2-ejss3">Eloquent JavaScript Solutions (3rd Edition)</h2>
+          <h3>Overview</h3>
+          <p>The website presents my personal solutions to the exercises and problems set in the
+            <a href="https://eloquentjavascript.net/">3rd edition of eloquent javascript</a> by
+            <a href="https://marijnhaverbeke.nl/">Marijn Haverbeke.</a>
+          </p>
+          <h3>Why I Built It</h3>
+          <p>I wanted to gain an in-depth and practical knowledge of JavaScript. One of the resources that was recommended again
+            and again was the Eloquent JavaScript book by Marijn Haverbeke. I knew that by carefully reading each chapter
+            and then immediately applying the knowledge that I had just learnt would be invaluable. I also knew that building
+            a website to present my solutions to the problems would also be a great learning exercise.</p>
+          <h3>How I Built It</h3>
+          <p>The website is dynamic. It uses the GitHub API to load each chapter's solutions on demand. The code samples are
+            stored as gists on GitHub and the site text is stored as markdown comments for those gists. I used the opportunity
+            to try out the new ES6/7 JS features, Promises, Async and Await when interacting with the GitHub API.</p>
+          <h3>Colophon</h3>
+          <p>A list of technologies used in the project:</p>
+          <table class="table table-hover">
+            <thead>
+              <tr>
+                <th scope="col">Technology</th>
+                <th scope="col">Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">HTML</th>
+                <td>The structural and semantic design of the web site.</td>
+              </tr>
+              <tr>
+                <th scope="row">CSS</th>
+                <td>
+                  <div class="list-group">
+                    <p class="lead">Typography</p>
+                    <p>Using a vertical rhythm typographical reset based on the golden ratio from
+                      <a href="https://www.gridlover.net">Grid Lover</a>
+                    </p>
+                    <p class="lead">GitHub Gist Theme</p>
+                    <p>All JavaScript code is styled using a GitHub Gist Theme.</p>
+                    <p class="lead">Animated Loading Spinner</p>
+                    <p>Customised animation based on one of the spinners by
+                      <a href="http://tobiasahlin.com/spinkit/">Tobias Ahlin</a>
+                    </p>
+                    <p class="lead">Animated Menu</p>
+                    <p>Animated menu that expands, contracts and fades in and out on mouse click.</p>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">JavaScript</th>
+                <td>
+                  <div class="list-group">
+                    <p class="lead">GitHub API</p>
+                    <p>All code samples and dynamic website content is loaded on demand from GitHub code gists and markdown
+                      comments.
+                    </p>
+                    <p class="lead">ES6/7</p>
+                    <p>Since the website's content is loaded via the GitHUb API, the website needs to support asynchronous methods.
+                      I take advantage of the new ES6/7 JavaScript features,
+                      <b>Promises</b>,
+                      <b>Async</b> and
+                      <b>Await</b> when interacting with the GitHub API.</p>
+                    <p class="lead">Markdown</p>
+                    <p>The website text is loaded from GitHub Markdown comments. These are dynamically converted to HTML using
+                      the
+                      <a href="https://github.com/markedjs/marked">marked.js</a> code library.</p>
+                    <p class="lead">Code Syntax Highlighting</p>
+                    <p>The JavaScript code syntax is dynamically highlighted using the
+                      <a href="https://highlightjs.org/">highlight.js</a> code library.</p>
+                    <p class="lead">MVC</p>
+                    <p>The project code is organised using a Model View Controller (MVC) pattern.</p>
+                    <p class="lead">Modules</p>
+                    <p>All code is organised into self-contained code modules that can be individually unit tested.</p>
+                    <p class="lead">Polyfills</p>
+                    <p>Since not all browsers support all modern JavaScript fuctionality I have added some JavaScript polyfills.
+                      e.g. Adding a polyfill for the 'prepend' DOM method. I also use Babel to translate Promises, Async
+                      and Await into 'standard' JavaScript.</p>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">Responsive</th>
+                <td>
+                  <div class="list-group">
+                    <p class="lead">Responsive Design</p>
+                    <p>The UI is responsive and will change according to the size of the device's screen. A mobile first design
+                      is employed.</p>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">Google Fonts</th>
+                <td>
+                  <div class="list-group">
+                    <p class="lead">Web Fonts</p>
+                    <p>Google web fonts are used where appropriate. They are served from Google's CDN.</p>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">Tools</th>
+                <td>
+                  <div class="list-group">
+                    <p class="lead">VS Code</p>
+                    <p>Microsoft's open source Visual Studio Code Editor with plugins for web development.</p>
+                    <p class="lead">CodeKit</p>
+                    <p>Mac application for compiling, building and optimising web sites.</p>
+                    <p class="lead">Chrome Inspector</p>
+                    <p>Debug web sites in Google's browser.</p>
+                    <p class="lead">ESLint</p>
+                    <p>Check code syntax.</p>
+                    <p class="lead">Babel</p>
+                    <p>Use the latest JavaScript language improvements and have them compiled to standard JavaScript.</p>
+                    <p class="lead">Prettier</p>
+                    <p>Format your code in a standard and attractive way.</p>
+                    <p class="lead">Auto Prefixer</p>
+                    <p>Don't worry about vendor specific CSS prefixes.</p>
+                    <p class="lead">Source Maps</p>
+                    <p>Allow minified/uglified code to be debugged in the browser.</p>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">Performance</th>
+                <td>
+                  <div class="list-group">
+                    <p class="lead">Combining Files</p>
+                    <p>Combine multiple files into one to cut down on server requests.</p>
+                    <p class="lead">Minifying</p>
+                    <p>Reduce the size of code files to make them faster to download.</p>
                   </div>
                 </td>
               </tr>

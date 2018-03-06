@@ -1,5 +1,5 @@
-@import "colours";
-@import "clip";
+@import 'colours';
+@import 'clip';
 
 body {
   margin-top: 74px; // to accommodate fixed navbar height
@@ -181,8 +181,8 @@ li {
     rgba(125, 185, 232, 0) 100%
   ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient(
-      startColorstr="#3f51b5",
-      endColorstr="#007db9e8",
+      startColorstr='#3f51b5',
+      endColorstr='#007db9e8',
       GradientType=0
     ); /* IE6-9 */
   border: 0 solid $dividor-colour;
@@ -226,6 +226,9 @@ li {
 .bg-wedding {
   background-image: url(/img/backgrounds/01_2400_1600.jpg);
 }
+.bg-ejss3 {
+  background-image: url(/img/backgrounds/ejss3.jpg);
+}
 .project-parallax {
   position: relative;
   background-attachment: fixed;
@@ -254,7 +257,7 @@ li {
   width: 1em;
 }
 .h2-blackbox {
-  font-family: "Passion One";
+  font-family: 'Passion One';
   font-size: 8rem;
   line-height: 6rem;
   padding-bottom: 2rem;
@@ -262,8 +265,14 @@ li {
 }
 .h2-wedding {
   color: $accent-colour;
-  font-family: "Lovers Quarrel";
+  font-family: 'Lovers Quarrel';
   font-size: 8rem;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+.h2-ejss3 {
+  color: $dark-primary-colour;
+  font-size: 3rem;
   padding-bottom: 2rem;
   text-align: center;
 }
@@ -301,8 +310,8 @@ li {
     rgba(125, 185, 232, 0) 100%
   ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient(
-      startColorstr="#3f51b5",
-      endColorstr="#007db9e8",
+      startColorstr='#3f51b5',
+      endColorstr='#007db9e8',
       GradientType=0
     ); /* IE6-9 */
   border: 0 solid $dividor-colour;
@@ -334,7 +343,7 @@ li {
 .projects h1,
 .work h1,
 .testimonials h1 {
-  font-family: "Work Sans", Arial, Helvetica, sans-serif;
+  font-family: 'Work Sans', Arial, Helvetica, sans-serif;
   font-weight: 800;
   font-size: 3rem;
   line-height: 8rem;

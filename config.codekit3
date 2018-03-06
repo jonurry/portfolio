@@ -7,7 +7,7 @@
 		"uuidString": "21ADEDC7-41CD-4ED9-8732-F9CDE9A77FDE"
 		}
 	],
-"creatorBuild": "26261",
+"creatorBuild": "26330",
 "files": {
 	"\/.eslintrc.json": {
 		"ft": 524288,
@@ -172,6 +172,16 @@
 		"oA": 0,
 		"oAP": "\/docs\/img\/backgrounds\/blackbox.jpg",
 		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/img\/backgrounds\/ejss3.jpeg": {
+		"ft": 16384,
+		"iS": 283216,
+		"oA": 0,
+		"oAP": "\/docs\/img\/backgrounds\/ejss3.jpg",
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
@@ -514,13 +524,13 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/Portfolio.svg": {
+	"\/img\/portfolio.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/docs\/img\/Portfolio.svg",
-		"oF": 1,
-		"opt": 1,
+		"oAP": "\/docs\/img\/portfolio.svg",
+		"oF": 0,
+		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -836,6 +846,7 @@
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"autoprefixerEnableIEGrid": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
 	"babelConfigFileHandlingType": 0,
