@@ -61,7 +61,11 @@
 .clip-height {
   min-height: 6rem;
   margin-bottom: 6rem;
-  margin-top: -0.1rem; }
+  margin-top: -1.6rem; }
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 1rem;
+  margin-top: 1.5rem; }
 
 body {
   margin-top: 74px; }
