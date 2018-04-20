@@ -7,7 +7,7 @@
 		"uuidString": "21ADEDC7-41CD-4ED9-8732-F9CDE9A77FDE"
 		}
 	],
-"creatorBuild": "26330",
+"creatorBuild": "26680",
 "files": {
 	"\/.eslintrc.json": {
 		"ft": 524288,
@@ -122,6 +122,7 @@
 	"\/img\/backgrounds\/01_1200_800.jpg": {
 		"ft": 16384,
 		"iS": 138699,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/docs\/img\/backgrounds\/01_1200_800.jpg",
 		"oF": 1,
@@ -132,6 +133,7 @@
 	"\/img\/backgrounds\/01_1602_1068.jpg": {
 		"ft": 16384,
 		"iS": 220825,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/docs\/img\/backgrounds\/01_1602_1068.jpg",
 		"oF": 1,
@@ -142,6 +144,7 @@
 	"\/img\/backgrounds\/01_2400_1600.jpg": {
 		"ft": 16384,
 		"iS": 300405,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/docs\/img\/backgrounds\/01_2400_1600.jpg",
 		"oF": 1,
@@ -152,6 +155,7 @@
 	"\/img\/backgrounds\/01_400_600.jpg": {
 		"ft": 16384,
 		"iS": 32841,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/docs\/img\/backgrounds\/01_400_600.jpg",
 		"oF": 1,
@@ -162,6 +166,7 @@
 	"\/img\/backgrounds\/01_800_1200.jpg": {
 		"ft": 16384,
 		"iS": 97293,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/docs\/img\/backgrounds\/01_800_1200.jpg",
 		"oF": 1,
@@ -172,6 +177,7 @@
 	"\/img\/backgrounds\/01_801_534.jpg": {
 		"ft": 16384,
 		"iS": 71682,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/docs\/img\/backgrounds\/01_801_534.jpg",
 		"oF": 1,
@@ -182,6 +188,7 @@
 	"\/img\/backgrounds\/blackbox.jpg": {
 		"ft": 16384,
 		"iS": 158861,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/docs\/img\/backgrounds\/blackbox.jpg",
 		"oF": 1,
@@ -192,6 +199,7 @@
 	"\/img\/backgrounds\/ejss3.jpeg": {
 		"ft": 16384,
 		"iS": 283216,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/docs\/img\/backgrounds\/ejss3.jpg",
 		"oF": 0,
@@ -202,6 +210,7 @@
 	"\/img\/backgrounds\/velo-studio.jpg": {
 		"ft": 16384,
 		"iS": 167681,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/docs\/img\/backgrounds\/velo-studio.jpg",
 		"oF": 1,
@@ -560,6 +569,7 @@
 	"\/img\/profiles\/andor-miles-board.jpeg": {
 		"ft": 16384,
 		"iS": 23164,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/docs\/img\/profiles\/andor-miles-board.jpg",
 		"oF": 0,
@@ -570,6 +580,7 @@
 	"\/img\/profiles\/angela-lyras.jpeg": {
 		"ft": 16384,
 		"iS": 5588,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/docs\/img\/profiles\/angela-lyras.jpg",
 		"oF": 0,
@@ -580,6 +591,7 @@
 	"\/img\/profiles\/catherine-tryfona.jpeg": {
 		"ft": 16384,
 		"iS": 31871,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/docs\/img\/profiles\/catherine-tryfona.jpg",
 		"oF": 0,
@@ -590,6 +602,7 @@
 	"\/img\/profiles\/dimitris-lyras.jpg": {
 		"ft": 16384,
 		"iS": 11113,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/docs\/img\/profiles\/dimitris-lyras.jpg",
 		"oF": 0,
@@ -600,6 +613,7 @@
 	"\/img\/profiles\/edward-norton.jpeg": {
 		"ft": 16384,
 		"iS": 27892,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/docs\/img\/profiles\/edward-norton.jpg",
 		"oF": 0,
@@ -610,6 +624,7 @@
 	"\/img\/profiles\/hitesh-mistry.jpeg": {
 		"ft": 16384,
 		"iS": 11562,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/docs\/img\/profiles\/hitesh-mistry.jpg",
 		"oF": 0,
@@ -620,6 +635,7 @@
 	"\/img\/profiles\/jason-spencer.jpeg": {
 		"ft": 16384,
 		"iS": 21980,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/docs\/img\/profiles\/jason-spencer.jpg",
 		"oF": 0,
@@ -630,6 +646,7 @@
 	"\/img\/profiles\/john-sewell.jpeg": {
 		"ft": 16384,
 		"iS": 8221,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/docs\/img\/profiles\/john-sewell.jpg",
 		"oF": 0,
@@ -640,6 +657,7 @@
 	"\/img\/profiles\/martin-davies.jpeg": {
 		"ft": 16384,
 		"iS": 25265,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/docs\/img\/profiles\/martin-davies.jpg",
 		"oF": 0,
@@ -650,6 +668,7 @@
 	"\/img\/profiles\/mohammed-amir.jpeg": {
 		"ft": 16384,
 		"iS": 21644,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/docs\/img\/profiles\/mohammed-amir.jpg",
 		"oF": 0,
@@ -660,6 +679,7 @@
 	"\/img\/profiles\/nick-loizos.jpeg": {
 		"ft": 16384,
 		"iS": 4224,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/docs\/img\/profiles\/nick-loizos.jpg",
 		"oF": 0,
@@ -670,6 +690,7 @@
 	"\/img\/profiles\/stephen-williamson.jpeg": {
 		"ft": 16384,
 		"iS": 15736,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/docs\/img\/profiles\/stephen-williamson.jpg",
 		"oF": 0,
@@ -680,6 +701,7 @@
 	"\/img\/profiles\/stuart-may.jpeg": {
 		"ft": 16384,
 		"iS": 30450,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/docs\/img\/profiles\/stuart-may.jpg",
 		"oF": 0,
@@ -690,6 +712,7 @@
 	"\/img\/profiles\/will-daniels.jpeg": {
 		"ft": 16384,
 		"iS": 47444,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/docs\/img\/profiles\/will-daniels.jpg",
 		"oF": 0,
@@ -981,7 +1004,8 @@
 	"displayValue": "portfolio",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-owl",
-	"lastBuiltDate": 545159886
+	"iconImageWasSetByUser": 0,
+	"lastBuiltDate": 545304712
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -2784,6 +2808,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
 		"quality": 100
 		},
 	"languageDefaultsJS": {
