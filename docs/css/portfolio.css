@@ -63,7 +63,18 @@
   margin-bottom: 6rem;
   margin-top: -1.6rem; }
 
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin-bottom: 1rem;
   margin-top: 1.5rem; }
 
@@ -381,3 +392,8 @@ li {
   line-height: 8rem;
   text-align: center;
   text-transform: uppercase; }
+
+.form-control:focus {
+  border-color: #ff3f81;
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(255, 63, 129, 0.25);
+          box-shadow: 0 0 0 0.2rem rgba(255, 63, 129, 0.25); }

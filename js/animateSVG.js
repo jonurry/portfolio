@@ -32,7 +32,7 @@ if (typeof jQuery === 'undefined') {
 
     svg = document.getElementById('svg');
     if (svg !== null) {
-      paths = toArray(svg.querySelectorAll('#svg path, #svg ellipse'));
+      paths = toArray(svg.querySelectorAll('#svg path'));
       if (paths.length > 0) {
         durations = paths.map(function(path) {
           var length = path.getTotalLength();

@@ -140,7 +140,7 @@
     <header id="home" class="narrow-width">
       <h1 class="display-1">Jon Urry</h1>
       <p class="lead">
-        Web Application Developer and Designer
+        JavaScript Web Application Developer and Designer
       </p>
       <div class="header-flex-container">
         <div class="profile-svg-container">
@@ -299,8 +299,8 @@
           source technologies.</p>
         <p>Eventually, I will become a Full Stack Open Source JavaScript Developer.</p>
         <p>Right now, I'm looking for my first job as a Web Developer.</p>
-        <p>I realise that there is a mountain of stuff to learn to be a web developer but my past experience will stand me
-          in good stead and I expect to progress quickly. Software development is not just about programming, it takes years
+        <p>I realise that there is a mountain of stuff to learn to be a web developer but my past experience will stand me in
+          good stead and I expect to progress quickly. Software development is not just about programming, it takes years
           of experience to be able to architect, design and build large scale software and I already have those skills. I
           just need to apply them to an area of technology that is relatively new to me.</p>
         <p>I started this journey in September 2017.</p>
@@ -1530,6 +1530,72 @@
       </div>
       <div class="narrow-width contact">
         <h1>Contact Me</h1>
+        <!-- email contact form -->
+        <!-- 
+          sender's name (mandatory)
+          sender's email (mandatory)
+          sender's phone number (optional)
+          sender's company (optional)
+          message (mandatory) 
+        -->
+        <form id="form-contact" action="https://d5qfnspz7k.execute-api.eu-west-1.amazonaws.com/dev/lambda-email-service" class="needs-validation"
+          method="POST" novalidate>
+          <!-- {{ VERIFIED SES SENDING FROM EMAIL }} -->
+          <input type="hidden" name="ses_address" value="jon@urry.me" />
+          <!-- {{ VERIFIED SES SENDING TO EMAIL }} -->
+          <input type="hidden" name="send_to" value="jon@urry.me" />
+          <!-- {{ EMAIL SUBJECT }} -->
+          <input type="hidden" name="subject" value="Message submitted on Portfolio (jon.urry.me)" />
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputName">Name</label>
+              <input type="text" class="form-control" id="inputName" placeholder="Name" name="name" autocomplete="name" required>
+              <div class="invalid-feedback">
+                Please enter your name.
+              </div>
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputEmail">Email</label>
+              <input type="email" class="form-control" id="inputEmail" placeholder="Email" name="email" autocomplete="email" required>
+              <div class="invalid-feedback">
+                Please enter your email.
+              </div>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputName">Company</label>
+              <input type="text" class="form-control" id="inputCompany" placeholder="Company" name="company" autocomplete="organization">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputPhone">Phone</label>
+              <input type="tel" class="form-control" id="inputPhone" placeholder="Phone" name="phone" autocomplete="tel-national">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="textareaMessage">Message</label>
+            <textarea class="form-control" id="textareaMessage" rows="6" name="message" required></textarea>
+            <div class="invalid-feedback">
+              Please enter your message.
+            </div>
+          </div>
+          <div id="contact-message-sent" class="alert alert-success alert-dismissible fade show" role="alert" style="display: none;">
+            <strong>Thanks!</strong> Your message has been sent.
+            <button type="button" class="close" data-hide="alert" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div id="contact-message-failed" class="alert alert-danger alert-dismissible fade show" role="alert" style="display: none;">
+            <strong>Aw, nuts!</strong> Your message failed. Try emailing 'jon@urry.me' with your usual email application instead.
+            <button type="button" class="close" data-hide="alert" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <button type="submit" class="btn btn-primary">Send</button>
+        </form>
+        <br>
+        <br>
+        <br>
         <!-- <div class="list-group text-center"> -->
         <div class="contact-container">
           <!-- Icons by Open Iconic — www.useiconic.com/open - and - Simple Icons - https://simpleicons.org/ -->

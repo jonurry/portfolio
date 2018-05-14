@@ -6,10 +6,23 @@
   "configurations": [
     {
       "type": "chrome",
+      "request": "attach",
+      "name": "Attach to Chrome",
+      "port": 9222,
+      "webRoot": "${workspaceFolder}/index.html"
+    },
+    {
+      "type": "chrome",
       "request": "launch",
-      "name": "Launch Chrome against localhost",
-      "url": "http://localhost:5757/",
-      "webRoot": "${workspaceFolder}"
+      "name": "Launch Chrome",
+      "file": "${workspaceFolder}/index.html",
+      "sourceMaps": false
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Node Mail Server",
+      "program": "${workspaceFolder}/node/app.local.js"
     }
   ]
 }

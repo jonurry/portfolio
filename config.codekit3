@@ -11,11 +11,18 @@
 "files": {
 	"\/.eslintrc.json": {
 		"ft": 524288,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/docs\/.eslintrc.json",
-		"oF": 0,
+		"oF": 1,
 		"oO": 0,
 		"oS": 1
+		},
+	"\/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/docs\/.gitignore",
+		"oF": 0
 		},
 	"\/.vscode\/launch.json": {
 		"ft": 524288,
@@ -566,7 +573,7 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/img\/profiles\/andor-miles-board.jpeg": {
+	"\/img\/profiles\/andor-miles-board.jpg": {
 		"ft": 16384,
 		"iS": 23164,
 		"jF": 0,
@@ -577,7 +584,7 @@
 		"opt": 1,
 		"q": 100
 		},
-	"\/img\/profiles\/angela-lyras.jpeg": {
+	"\/img\/profiles\/angela-lyras.jpg": {
 		"ft": 16384,
 		"iS": 5588,
 		"jF": 0,
@@ -588,7 +595,7 @@
 		"opt": 1,
 		"q": 100
 		},
-	"\/img\/profiles\/catherine-tryfona.jpeg": {
+	"\/img\/profiles\/catherine-tryfona.jpg": {
 		"ft": 16384,
 		"iS": 31871,
 		"jF": 0,
@@ -610,7 +617,7 @@
 		"opt": 1,
 		"q": 100
 		},
-	"\/img\/profiles\/edward-norton.jpeg": {
+	"\/img\/profiles\/edward-norton.jpg": {
 		"ft": 16384,
 		"iS": 27892,
 		"jF": 0,
@@ -621,7 +628,7 @@
 		"opt": 1,
 		"q": 100
 		},
-	"\/img\/profiles\/hitesh-mistry.jpeg": {
+	"\/img\/profiles\/hitesh-mistry.jpg": {
 		"ft": 16384,
 		"iS": 11562,
 		"jF": 0,
@@ -632,7 +639,7 @@
 		"opt": 1,
 		"q": 100
 		},
-	"\/img\/profiles\/jason-spencer.jpeg": {
+	"\/img\/profiles\/jason-spencer.jpg": {
 		"ft": 16384,
 		"iS": 21980,
 		"jF": 0,
@@ -643,7 +650,7 @@
 		"opt": 1,
 		"q": 100
 		},
-	"\/img\/profiles\/john-sewell.jpeg": {
+	"\/img\/profiles\/john-sewell.jpg": {
 		"ft": 16384,
 		"iS": 8221,
 		"jF": 0,
@@ -654,7 +661,7 @@
 		"opt": 1,
 		"q": 100
 		},
-	"\/img\/profiles\/martin-davies.jpeg": {
+	"\/img\/profiles\/martin-davies.jpg": {
 		"ft": 16384,
 		"iS": 25265,
 		"jF": 0,
@@ -665,7 +672,7 @@
 		"opt": 1,
 		"q": 100
 		},
-	"\/img\/profiles\/mohammed-amir.jpeg": {
+	"\/img\/profiles\/mohammed-amir.jpg": {
 		"ft": 16384,
 		"iS": 21644,
 		"jF": 0,
@@ -676,7 +683,7 @@
 		"opt": 1,
 		"q": 100
 		},
-	"\/img\/profiles\/nick-loizos.jpeg": {
+	"\/img\/profiles\/nick-loizos.jpg": {
 		"ft": 16384,
 		"iS": 4224,
 		"jF": 0,
@@ -687,7 +694,7 @@
 		"opt": 1,
 		"q": 100
 		},
-	"\/img\/profiles\/stephen-williamson.jpeg": {
+	"\/img\/profiles\/stephen-williamson.jpg": {
 		"ft": 16384,
 		"iS": 15736,
 		"jF": 0,
@@ -698,7 +705,7 @@
 		"opt": 1,
 		"q": 100
 		},
-	"\/img\/profiles\/stuart-may.jpeg": {
+	"\/img\/profiles\/stuart-may.jpg": {
 		"ft": 16384,
 		"iS": 30450,
 		"jF": 0,
@@ -709,7 +716,7 @@
 		"opt": 1,
 		"q": 100
 		},
-	"\/img\/profiles\/will-daniels.jpeg": {
+	"\/img\/profiles\/will-daniels.jpg": {
 		"ft": 16384,
 		"iS": 47444,
 		"jF": 0,
@@ -933,8 +940,8 @@
 		},
 	"\/js\/animateSVG.js": {
 		"ft": 64,
-		"ma": 1,
-		"mi": 1,
+		"ma": 0,
+		"mi": 0,
 		"oA": 1,
 		"oAP": "\/docs\/js\/animateSVG.js",
 		"oF": 0,
@@ -943,8 +950,8 @@
 		},
 	"\/js\/app.js": {
 		"ft": 64,
-		"ma": 1,
-		"mi": 1,
+		"ma": 0,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/docs\/js\/app.js",
 		"oF": 0,
@@ -953,8 +960,8 @@
 		},
 	"\/js\/resize.js": {
 		"ft": 64,
-		"ma": 1,
-		"mi": 1,
+		"ma": 0,
+		"mi": 0,
 		"oA": 1,
 		"oAP": "\/docs\/js\/resize.js",
 		"oF": 0,
@@ -966,6 +973,106 @@
 		"oA": 0,
 		"oAP": "\/docs\/manifest.json",
 		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/node\/app.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/docs\/node\/app.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/node\/app.local.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/docs\/node\/app.local.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/node\/config.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/docs\/node\/config.json",
+		"oF": 1,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/node\/index.old.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/docs\/node\/index.old.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/node\/request-handlers.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/docs\/node\/request-handlers.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/node\/router.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/docs\/node\/router.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/node\/send-email.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/docs\/node\/send-email.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/node\/server.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/docs\/node\/server.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/node_modules": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "\/docs\/node_modules",
+		"oF": 1
+		},
+	"\/package-lock.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/docs\/package-lock.json",
+		"oF": 1,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/docs\/package.json",
+		"oF": 1,
 		"oO": 0,
 		"oS": 1
 		},
@@ -1003,9 +1110,9 @@
 	"creationDate": 533727569,
 	"displayValue": "portfolio",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-owl",
-	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 546271973
+	"iconImageName": "meme-wonka",
+	"iconImageWasSetByUser": 1,
+	"lastBuiltDate": 547998390
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -1404,7 +1511,7 @@
 		},
 	"esLintConfigFileHandlingType": 0,
 	"esLintECMAVersion": 7,
-	"esLintEnvironmentsMask": 1,
+	"esLintEnvironmentsMask": 8211,
 	"esLintRules": {
 		"accessor-pairs": {
 			"active": 0,
@@ -2818,8 +2925,8 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
-		"createSourceMap": 1,
-		"minifyOutput": 1,
+		"createSourceMap": 0,
+		"minifyOutput": 0,
 		"syntaxCheckerStyle": 3,
 		"transpilerStyle": 0
 		},

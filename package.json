@@ -1,0 +1,26 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description":
+    "This is the portfolio website of Jon Urry - Web Application Developer and Designer.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "debug": "node --nolazy --inspect-brk=9229 myProgram.js"
+  },
+  "repository": "git+https://github.com/jonurry/portfolio.git",
+  "keywords": [],
+  "author": "Jon Urry <github@agileweb.co.uk>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonurry/portfolio/issues"
+  },
+  "homepage": "https://github.com/jonurry/portfolio#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "request": "^2.85.0",
+    "request-promise": "^4.2.2"
+  }
+}
