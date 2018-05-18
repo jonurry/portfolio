@@ -312,12 +312,21 @@ header {
     margin: 3rem;
     max-width: 40rem; }
   #projects .badge-primary {
-    background-color: rgba(33, 33, 33, 0.6); }
+    background-color: #757575;
+    font-weight: 400; }
   #projects .button-icon {
     fill: #ffffff;
     width: 1em; }
+  #projects .btn-primary {
+    background-color: #ff4081;
+    border-color: #ff4081;
+    color: #ffffff; }
+    #projects .btn-primary:hover {
+      background-color: #3f51b5;
+      border-color: #3f51b5;
+      color: #ffffff; }
   #projects .card-header {
-    background-color: #3f51b5;
+    background-color: #ff4081;
     color: #ffffff;
     font-size: 2.5rem; }
   #projects .card-footer a {

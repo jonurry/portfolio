@@ -292,14 +292,25 @@ header {
     max-width: 40rem;
   }
   .badge-primary {
-    background-color: rgba($primary-text-colour, 0.6);
+    background-color: $secondary-text-colour;
+    font-weight: 400;
   }
   .button-icon {
     fill: $text-icon-colour;
     width: 1em;
   }
+  .btn-primary {
+    background-color: $accent-colour;
+    border-color: $accent-colour;
+    color: $text-icon-colour;
+    &:hover {
+      background-color: $primary-colour;
+      border-color: $primary-colour;
+      color: $text-icon-colour;
+    }
+  }
   .card-header {
-    background-color: $primary-colour;
+    background-color: $accent-colour;
     color: $text-icon-colour;
     font-size: 2.5rem;
   }
