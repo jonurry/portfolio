@@ -24,12 +24,13 @@ body {
 }
 
 .full-width {
-  width: 100vw;
-  position: relative;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
+  // width: 100vw;
+  // position: relative;
+  // left: 50%;
+  // right: 50%;
+  // margin-left: -50vw;
+  // margin-right: -50vw;
+  flex: 0 1 100vw;
 }
 
 .narrow-width {
@@ -146,156 +147,188 @@ header {
 }
 
 // work
-.work {
-  background-color: $accent-colour;
-  color: $text-icon-colour;
-}
-.badge-primary {
-  background-color: rgba($dark-primary-colour, 0.7);
-}
-.badge-secondary {
-  // background-color: rgba($dark-primary-colour, 0.4);
-  background-color: rgba(darken($accent-colour, 80%), 0.2);
-}
-li {
-  margin: 1rem 0;
-}
-.never-stop-learning {
-  .badge {
-    background-color: rgba(darken($accent-colour, 30%), 0.3);
-    font-size: 1.5rem;
-    padding: 1rem;
+#work {
+  .work {
+    background-color: $accent-colour;
+    color: $text-icon-colour;
   }
-  // color: $dark-primary-colour;
+  .badge-primary {
+    // background-color: rgba($dark-primary-colour, 0.7);
+    background-color: $off-white;
+    color: #212121;
+  }
+  .badge-secondary {
+    // background-color: rgba(darken($accent-colour, 80%), 0.2);
+    background-color: $off-white;
+    color: #3f51b5;
+  }
+  li {
+    margin: 1rem 0;
+  }
+  .never-stop-learning {
+    .badge {
+      // background-color: rgba(darken($accent-colour, 30%), 0.3);
+      background-color: $primary-text-colour;
+      font-size: 1.5rem;
+      padding: 1rem;
+    }
+    // color: $dark-primary-colour;
+  }
 }
 
 // testimonials
-.testimonials {
-  background-color: $dark-primary-colour;
-  color: $text-icon-colour;
-}
-.card-container {
-  align-items: center;
-  background-color: $dark-primary-colour;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-.card {
-  background: -moz-linear-gradient(
-    top,
-    rgba(63, 81, 181, 1) 0%,
-    rgba(125, 185, 232, 0) 100%
-  ); /* FF3.6-15 */
-  background: -webkit-linear-gradient(
-    top,
-    rgba(63, 81, 181, 1) 0%,
-    rgba(125, 185, 232, 0) 100%
-  ); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(
-    to bottom,
-    rgba(63, 81, 181, 1) 0%,
-    rgba(125, 185, 232, 0) 100%
-  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient(
+#testimonials {
+  .testimonials {
+    background-color: $dark-primary-colour;
+    color: $text-icon-colour;
+  }
+  .card-container {
+    align-items: center;
+    background-color: $dark-primary-colour;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .card-flex {
+    flex: 1 0 25rem;
+    margin: 3rem;
+    max-width: 40rem;
+  }
+  .card {
+    background: -moz-linear-gradient(
+      top,
+      rgba(63, 81, 181, 1) 0%,
+      rgba(125, 185, 232, 0) 100%
+    ); /* FF3.6-15 */
+    background: -webkit-linear-gradient(
+      top,
+      rgba(63, 81, 181, 1) 0%,
+      rgba(125, 185, 232, 0) 100%
+    ); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(
+      to bottom,
+      rgba(63, 81, 181, 1) 0%,
+      rgba(125, 185, 232, 0) 100%
+    ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(
       startColorstr='#3f51b5',
       endColorstr='#007db9e8',
       GradientType=0
     ); /* IE6-9 */
-  border: 0 solid $dividor-colour;
-  flex: 1 0 25rem;
-  margin: 3rem;
-  max-width: 40rem;
-  padding-top: 2rem;
-}
-.card-title {
-  color: $accent-colour;
-  // text-align: center;
-}
-.card-text {
-  color: $text-icon-colour;
-}
-.card footer a {
-  color: $light-primary-colour;
-}
-.card cite {
-  color: $dividor-colour;
-}
-.blockquote-footer {
-  color: $primary-colour;
-  margin-top: 0.5rem;
-  a {
-    color: inherit;
+    border: 0 solid $divider-colour;
+    padding-top: 2rem;
+  }
+  .card-title {
+    color: $accent-colour;
+    // text-align: center;
+  }
+  .card-text {
+    color: $text-icon-colour;
+  }
+  .card footer a {
+    color: $light-primary-colour;
+  }
+  .card cite {
+    color: $divider-colour;
+  }
+  .blockquote-footer {
+    color: $primary-colour;
+    margin-top: 0.5rem;
+    a {
+      color: inherit;
+    }
+  }
+  .show-testimonials {
+    padding: 0 calc(50% - 6rem);
   }
 }
-.show-testimonials {
-  width: 100%;
-  padding: 0 calc(50% - 6rem);
-}
 
-//projects parallax
-.bg-blackbox {
-  background-image: url(/img/backgrounds/blackbox.jpg);
-}
-.bg-velo-studio {
-  background-image: url(/img/backgrounds/velo-studio.jpg);
-}
-.bg-wedding {
-  background-image: url(/img/backgrounds/01_2400_1600.jpg);
-}
-.bg-ejss3 {
-  background-image: url(/img/backgrounds/ejss3.jpg);
-}
-.project-parallax {
-  position: relative;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 80vh;
-}
 #projects {
-  background-color: $text-icon-colour;
+  // background-color: $text-icon-colour;
   color: $primary-text-colour;
-}
-.project-content {
-  background-color: white;
-  bottom: 0;
-  position: absolute;
-  width: 100%;
-}
-.project-buttons {
-  margin: -6em auto 6em auto;
-  width: 22em;
-  width: max-content; //override with actual width if supported by browser
-}
-.button-icon {
-  fill: $text-icon-colour;
-  width: 1em;
-}
-.h2-blackbox {
-  font-family: 'Passion One';
-  font-size: 8rem;
-  line-height: 6rem;
-  padding-bottom: 2rem;
-  text-align: center;
-}
-.h2-wedding {
-  color: $accent-colour;
-  font-family: 'Lovers Quarrel';
-  font-size: 8rem;
-  padding-bottom: 2rem;
-  text-align: center;
-}
-.h2-ejss3 {
-  color: $dark-primary-colour;
-  font-size: 3rem;
-  padding-bottom: 2rem;
-  text-align: center;
-}
-.velo-studio-logo {
-  margin-bottom: 2rem;
+  //projects parallax
+  .bg-blackbox {
+    background-image: url(/img/backgrounds/blackbox.jpg);
+  }
+  .bg-velo-studio {
+    background-image: url(/img/backgrounds/velo-studio.jpg);
+  }
+  .bg-wedding {
+    background-image: url(/img/backgrounds/01_2400_1600.jpg);
+  }
+  .bg-ejss3 {
+    background-image: url(/img/backgrounds/ejss3.jpg);
+  }
+  .project-parallax {
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 80vh;
+  }
+  .project-content {
+    background-color: white;
+    bottom: 0;
+    // position: absolute;
+    // width: 100%;
+  }
+  .project-buttons {
+    margin: -6em auto 6em auto;
+    width: 22em;
+    width: max-content; //override with actual width if supported by browser
+  }
+  .flex-container {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .flex-card {
+    flex: 1 0 25rem;
+    margin: 3rem;
+    max-width: 40rem;
+  }
+  .badge-primary {
+    background-color: rgba($primary-text-colour, 0.6);
+  }
+  .button-icon {
+    fill: $text-icon-colour;
+    width: 1em;
+  }
+  .card-header {
+    background-color: $primary-colour;
+    color: $text-icon-colour;
+    font-size: 2.5rem;
+  }
+  .card-footer a {
+    padding: 0 0.5rem;
+  }
+  .h2-blackbox {
+    font-family: 'Passion One';
+    font-size: 8rem;
+    line-height: 6rem;
+    padding-bottom: 2rem;
+    text-align: center;
+  }
+  .h2-wedding {
+    color: $accent-colour;
+    font-family: 'Lovers Quarrel';
+    font-size: 8rem;
+    padding-bottom: 2rem;
+    text-align: center;
+  }
+  .h2-ejss3 {
+    color: $dark-primary-colour;
+    font-size: 3rem;
+    padding-bottom: 2rem;
+    text-align: center;
+  }
+  .velo-studio-logo {
+    margin-bottom: 2rem;
+  }
 }
 
 // contact
@@ -332,7 +365,7 @@ li {
       endColorstr='#007db9e8',
       GradientType=0
     ); /* IE6-9 */
-  border: 0 solid $dividor-colour;
+  border: 0 solid $divider-colour;
   flex: 1 0 13rem;
   margin: 1rem;
   max-width: 20rem;

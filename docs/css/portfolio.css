@@ -82,12 +82,9 @@ body {
   margin-top: 74px; }
 
 .full-width {
-  width: 100vw;
-  position: relative;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw; }
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 100vw;
+          flex: 0 1 100vw; }
 
 .narrow-width {
   padding-left: 2%;
@@ -185,29 +182,31 @@ header {
           flex: 1 0 15rem;
   margin: 2.5rem 1rem; }
 
-.work {
+#work .work {
   background-color: #ff4081;
   color: #ffffff; }
 
-.badge-primary {
-  background-color: rgba(48, 63, 159, 0.7); }
+#work .badge-primary {
+  background-color: #f8f9fa;
+  color: #212121; }
 
-.badge-secondary {
-  background-color: rgba(0, 0, 0, 0.2); }
+#work .badge-secondary {
+  background-color: #f8f9fa;
+  color: #3f51b5; }
 
-li {
+#work li {
   margin: 1rem 0; }
 
-.never-stop-learning .badge {
-  background-color: rgba(166, 0, 56, 0.3);
+#work .never-stop-learning .badge {
+  background-color: #212121;
   font-size: 1.5rem;
   padding: 1rem; }
 
-.testimonials {
+#testimonials .testimonials {
   background-color: #303f9f;
   color: #ffffff; }
 
-.card-container {
+#testimonials .card-container {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -225,7 +224,14 @@ li {
       -ms-flex-pack: center;
           justify-content: center; }
 
-.card {
+#testimonials .card-flex {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 25rem;
+          flex: 1 0 25rem;
+  margin: 3rem;
+  max-width: 40rem; }
+
+#testimonials .card {
   /* FF3.6-15 */
   /* Chrome10-25,Safari5.1-6 */
   background: -webkit-gradient(linear, left top, left bottom, from(#3f51b5), to(rgba(125, 185, 232, 0)));
@@ -234,98 +240,107 @@ li {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f51b5', endColorstr='#007db9e8', GradientType=0 );
   /* IE6-9 */
   border: 0 solid #bdbdbd;
-  -webkit-box-flex: 1;
-      -ms-flex: 1 0 25rem;
-          flex: 1 0 25rem;
-  margin: 3rem;
-  max-width: 40rem;
   padding-top: 2rem; }
 
-.card-title {
+#testimonials .card-title {
   color: #ff4081; }
 
-.card-text {
+#testimonials .card-text {
   color: #ffffff; }
 
-.card footer a {
+#testimonials .card footer a {
   color: #c5cae9; }
 
-.card cite {
+#testimonials .card cite {
   color: #bdbdbd; }
 
-.blockquote-footer {
+#testimonials .blockquote-footer {
   color: #3f51b5;
   margin-top: 0.5rem; }
-  .blockquote-footer a {
+  #testimonials .blockquote-footer a {
     color: inherit; }
 
-.show-testimonials {
-  width: 100%;
+#testimonials .show-testimonials {
   padding: 0 calc(50% - 6rem); }
 
-.bg-blackbox {
-  background-image: url(/img/backgrounds/blackbox.jpg); }
-
-.bg-velo-studio {
-  background-image: url(/img/backgrounds/velo-studio.jpg); }
-
-.bg-wedding {
-  background-image: url(/img/backgrounds/01_2400_1600.jpg); }
-
-.bg-ejss3 {
-  background-image: url(/img/backgrounds/ejss3.jpg); }
-
-.project-parallax {
-  position: relative;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 80vh; }
-
 #projects {
-  background-color: #ffffff;
   color: #212121; }
-
-.project-content {
-  background-color: white;
-  bottom: 0;
-  position: absolute;
-  width: 100%; }
-
-.project-buttons {
-  margin: -6em auto 6em auto;
-  width: 22em;
-  width: -webkit-max-content;
-  width: -moz-max-content;
-  width: max-content; }
-
-.button-icon {
-  fill: #ffffff;
-  width: 1em; }
-
-.h2-blackbox {
-  font-family: 'Passion One';
-  font-size: 8rem;
-  line-height: 6rem;
-  padding-bottom: 2rem;
-  text-align: center; }
-
-.h2-wedding {
-  color: #ff4081;
-  font-family: 'Lovers Quarrel';
-  font-size: 8rem;
-  padding-bottom: 2rem;
-  text-align: center; }
-
-.h2-ejss3 {
-  color: #303f9f;
-  font-size: 3rem;
-  padding-bottom: 2rem;
-  text-align: center; }
-
-.velo-studio-logo {
-  margin-bottom: 2rem; }
+  #projects .bg-blackbox {
+    background-image: url(/img/backgrounds/blackbox.jpg); }
+  #projects .bg-velo-studio {
+    background-image: url(/img/backgrounds/velo-studio.jpg); }
+  #projects .bg-wedding {
+    background-image: url(/img/backgrounds/01_2400_1600.jpg); }
+  #projects .bg-ejss3 {
+    background-image: url(/img/backgrounds/ejss3.jpg); }
+  #projects .project-parallax {
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 80vh; }
+  #projects .project-content {
+    background-color: white;
+    bottom: 0; }
+  #projects .project-buttons {
+    margin: -6em auto 6em auto;
+    width: 22em;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content; }
+  #projects .flex-container {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+  #projects .flex-card {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 25rem;
+            flex: 1 0 25rem;
+    margin: 3rem;
+    max-width: 40rem; }
+  #projects .badge-primary {
+    background-color: rgba(33, 33, 33, 0.6); }
+  #projects .button-icon {
+    fill: #ffffff;
+    width: 1em; }
+  #projects .card-header {
+    background-color: #3f51b5;
+    color: #ffffff;
+    font-size: 2.5rem; }
+  #projects .card-footer a {
+    padding: 0 0.5rem; }
+  #projects .h2-blackbox {
+    font-family: 'Passion One';
+    font-size: 8rem;
+    line-height: 6rem;
+    padding-bottom: 2rem;
+    text-align: center; }
+  #projects .h2-wedding {
+    color: #ff4081;
+    font-family: 'Lovers Quarrel';
+    font-size: 8rem;
+    padding-bottom: 2rem;
+    text-align: center; }
+  #projects .h2-ejss3 {
+    color: #303f9f;
+    font-size: 3rem;
+    padding-bottom: 2rem;
+    text-align: center; }
+  #projects .velo-studio-logo {
+    margin-bottom: 2rem; }
 
 .contact-container {
   -webkit-box-align: center;

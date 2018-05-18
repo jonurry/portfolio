@@ -141,7 +141,7 @@ if (typeof jQuery === 'undefined') {
 !(function($) {
   'use strict';
 
-  $('#collapsedTestimonials').on('show.bs.collapse', function() {
+  $('.collapsed-testimonials').on('show.bs.collapse', function() {
     $('.show-testimonials').css('visibility', 'hidden');
   });
 
