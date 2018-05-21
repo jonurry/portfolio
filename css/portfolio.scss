@@ -152,6 +152,9 @@ header {
     background-color: $accent-colour;
     color: $text-icon-colour;
   }
+  .badge {
+    white-space: normal;
+  }
   .badge-primary {
     // background-color: rgba($dark-primary-colour, 0.7);
     background-color: $off-white;
@@ -194,6 +197,12 @@ header {
     flex: 1 0 25rem;
     margin: 3rem;
     max-width: 40rem;
+  }
+  // Small devices set max width of cards to be screen width
+  @media (max-width: 576px) {
+    .card-flex {
+      flex: 1 0 100vw;
+    }
   }
   .card {
     background: -moz-linear-gradient(
@@ -290,6 +299,12 @@ header {
     flex: 1 0 25rem;
     margin: 3rem;
     max-width: 40rem;
+  }
+  // Small devices set max width of cards to be screen width
+  @media (max-width: 576px) {
+    .flex-card {
+      flex: 1 0 100vw;
+    }
   }
   .badge-primary {
     background-color: $secondary-text-colour;

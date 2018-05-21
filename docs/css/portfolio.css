@@ -186,6 +186,9 @@ header {
   background-color: #ff4081;
   color: #ffffff; }
 
+#work .badge {
+  white-space: normal; }
+
 #work .badge-primary {
   background-color: #f8f9fa;
   color: #212121; }
@@ -230,6 +233,12 @@ header {
           flex: 1 0 25rem;
   margin: 3rem;
   max-width: 40rem; }
+
+@media (max-width: 576px) {
+  #testimonials .card-flex {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 100vw;
+            flex: 1 0 100vw; } }
 
 #testimonials .card {
   /* FF3.6-15 */
@@ -311,6 +320,11 @@ header {
             flex: 1 0 25rem;
     margin: 3rem;
     max-width: 40rem; }
+  @media (max-width: 576px) {
+    #projects .flex-card {
+      -webkit-box-flex: 1;
+          -ms-flex: 1 0 100vw;
+              flex: 1 0 100vw; } }
   #projects .badge-primary {
     background-color: #757575;
     font-weight: 400; }
