@@ -1,5 +1,5 @@
 {
-"AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and\/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https:\/\/codekitapp.com\/",
+"AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https://codekitapp.com/",
 "buildSteps": [
 	{
 		"name": "Process All Remaining Files and Folders",
@@ -7,54 +7,54 @@
 		"uuidString": "21ADEDC7-41CD-4ED9-8732-F9CDE9A77FDE"
 		}
 	],
-"creatorBuild": "26680",
+"creatorBuild": "28905",
 "files": {
-	"\/.eslintrc.json": {
+	"/.eslintrc.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/docs\/.eslintrc.json",
+		"oAP": "/docs/.eslintrc.json",
 		"oF": 1,
 		"oO": 0,
 		"oS": 1
 		},
-	"\/.gitignore": {
+	"/.gitignore": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/docs\/.gitignore",
+		"oAP": "/docs/.gitignore",
 		"oF": 0
 		},
-	"\/.vscode\/launch.json": {
+	"/.vscode/launch.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/docs\/.vscode\/launch.json",
+		"oAP": "/docs/.vscode/launch.json",
 		"oF": 1,
 		"oO": 0,
 		"oS": 1
 		},
-	"\/.vscode\/settings.json": {
+	"/.vscode/settings.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/docs\/.vscode\/settings.json",
+		"oAP": "/docs/.vscode/settings.json",
 		"oF": 1,
 		"oO": 0,
 		"oS": 1
 		},
-	"\/browserconfig.xml": {
+	"/browserconfig.xml": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/docs\/browserconfig.xml",
+		"oAP": "/docs/browserconfig.xml",
 		"oF": 0
 		},
-	"\/CNAME": {
+	"/CNAME": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/docs\/CNAME",
+		"oAP": "/docs/CNAME",
 		"oF": 1
 		},
-	"\/css\/clip.scss": {
+	"/css/clip.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -62,12 +62,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/docs\/css\/clip.css",
+		"oAP": "/docs/css/clip.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/css\/colours.scss": {
+	"/css/colours.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -75,12 +75,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/docs\/css\/colours.css",
+		"oAP": "/docs/css/colours.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/css\/portfolio.scss": {
+	"/css/portfolio.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -88,12 +88,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/docs\/css\/portfolio.css",
+		"oAP": "/docs/css/portfolio.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/css\/typography.scss": {
+	"/css/typography.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -101,730 +101,741 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/docs\/css\/typography.css",
+		"oAP": "/docs/css/typography.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/cv\/jon.urry.cv.docx": {
+	"/cv/jon.urry.cv.docx": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/docs\/cv\/jon.urry.cv.docx",
+		"oAP": "/docs/cv/jon.urry.cv.docx",
 		"oF": 0
 		},
-	"\/cv\/jon.urry.cv.pdf": {
+	"/cv/jon.urry.cv.pdf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/docs\/cv\/jon.urry.cv.pdf",
+		"oAP": "/docs/cv/jon.urry.cv.pdf",
 		"oF": 0
 		},
-	"\/docs": {
+	"/docs": {
 		"ft": 65536,
 		"oA": 1,
-		"oAP": "\/docs\/docs",
+		"oAP": "/docs/docs",
 		"oF": 0
 		},
-	"\/img\/backgrounds\/01_1200_800.jpg": {
+	"/img/backgrounds/01_1200_800.jpg": {
 		"ft": 16384,
 		"iS": 138699,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/docs\/img\/backgrounds\/01_1200_800.jpg",
+		"oAP": "/docs/img/backgrounds/01_1200_800.jpg",
 		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/img\/backgrounds\/01_1602_1068.jpg": {
+	"/img/backgrounds/01_1602_1068.jpg": {
 		"ft": 16384,
 		"iS": 220825,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/docs\/img\/backgrounds\/01_1602_1068.jpg",
+		"oAP": "/docs/img/backgrounds/01_1602_1068.jpg",
 		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/img\/backgrounds\/01_2400_1600.jpg": {
+	"/img/backgrounds/01_2400_1600.jpg": {
 		"ft": 16384,
 		"iS": 300405,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/docs\/img\/backgrounds\/01_2400_1600.jpg",
+		"oAP": "/docs/img/backgrounds/01_2400_1600.jpg",
 		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/img\/backgrounds\/01_400_600.jpg": {
+	"/img/backgrounds/01_400_600.jpg": {
 		"ft": 16384,
 		"iS": 32841,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/docs\/img\/backgrounds\/01_400_600.jpg",
+		"oAP": "/docs/img/backgrounds/01_400_600.jpg",
 		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/img\/backgrounds\/01_800_1200.jpg": {
+	"/img/backgrounds/01_800_1200.jpg": {
 		"ft": 16384,
 		"iS": 97293,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/docs\/img\/backgrounds\/01_800_1200.jpg",
+		"oAP": "/docs/img/backgrounds/01_800_1200.jpg",
 		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/img\/backgrounds\/01_801_534.jpg": {
+	"/img/backgrounds/01_801_534.jpg": {
 		"ft": 16384,
 		"iS": 71682,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/docs\/img\/backgrounds\/01_801_534.jpg",
+		"oAP": "/docs/img/backgrounds/01_801_534.jpg",
 		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/img\/backgrounds\/blackbox.jpg": {
+	"/img/backgrounds/blackbox.jpg": {
 		"ft": 16384,
 		"iS": 158861,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/docs\/img\/backgrounds\/blackbox.jpg",
+		"oAP": "/docs/img/backgrounds/blackbox.jpg",
 		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/img\/backgrounds\/ejss3.jpeg": {
+	"/img/backgrounds/ejss3.jpeg": {
 		"ft": 16384,
 		"iS": 283216,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/docs\/img\/backgrounds\/ejss3.jpg",
+		"oAP": "/docs/img/backgrounds/ejss3.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/img\/backgrounds\/velo-studio.jpg": {
+	"/img/backgrounds/velo-studio.jpg": {
 		"ft": 16384,
 		"iS": 167681,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/docs\/img\/backgrounds\/velo-studio.jpg",
+		"oAP": "/docs/img/backgrounds/velo-studio.jpg",
 		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/img\/favicons\/android-icon-144x144.png": {
+	"/img/favicons/android-icon-144x144.png": {
 		"ft": 32768,
 		"iS": 8667,
 		"oA": 0,
-		"oAP": "\/docs\/img\/favicons\/android-icon-144x144.png",
+		"oAP": "/docs/img/favicons/android-icon-144x144.png",
 		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/favicons\/android-icon-192x192.png": {
+	"/img/favicons/android-icon-192x192.png": {
 		"ft": 32768,
 		"iS": 7823,
 		"oA": 0,
-		"oAP": "\/docs\/img\/favicons\/android-icon-192x192.png",
+		"oAP": "/docs/img/favicons/android-icon-192x192.png",
 		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/favicons\/android-icon-36x36.png": {
+	"/img/favicons/android-icon-36x36.png": {
 		"ft": 32768,
 		"iS": 2042,
 		"oA": 0,
-		"oAP": "\/docs\/img\/favicons\/android-icon-36x36.png",
+		"oAP": "/docs/img/favicons/android-icon-36x36.png",
 		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/favicons\/android-icon-48x48.png": {
+	"/img/favicons/android-icon-48x48.png": {
 		"ft": 32768,
 		"iS": 2898,
 		"oA": 0,
-		"oAP": "\/docs\/img\/favicons\/android-icon-48x48.png",
+		"oAP": "/docs/img/favicons/android-icon-48x48.png",
 		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/favicons\/android-icon-72x72.png": {
+	"/img/favicons/android-icon-72x72.png": {
 		"ft": 32768,
 		"iS": 3946,
 		"oA": 0,
-		"oAP": "\/docs\/img\/favicons\/android-icon-72x72.png",
+		"oAP": "/docs/img/favicons/android-icon-72x72.png",
 		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/favicons\/android-icon-96x96.png": {
+	"/img/favicons/android-icon-96x96.png": {
 		"ft": 32768,
 		"iS": 5456,
 		"oA": 0,
-		"oAP": "\/docs\/img\/favicons\/android-icon-96x96.png",
+		"oAP": "/docs/img/favicons/android-icon-96x96.png",
 		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/favicons\/apple-icon-114x114.png": {
+	"/img/favicons/apple-icon-114x114.png": {
 		"ft": 32768,
 		"iS": 6675,
 		"oA": 0,
-		"oAP": "\/docs\/img\/favicons\/apple-icon-114x114.png",
+		"oAP": "/docs/img/favicons/apple-icon-114x114.png",
 		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/favicons\/apple-icon-120x120.png": {
+	"/img/favicons/apple-icon-120x120.png": {
 		"ft": 32768,
 		"iS": 6976,
 		"oA": 0,
-		"oAP": "\/docs\/img\/favicons\/apple-icon-120x120.png",
+		"oAP": "/docs/img/favicons/apple-icon-120x120.png",
 		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/favicons\/apple-icon-144x144.png": {
+	"/img/favicons/apple-icon-144x144.png": {
 		"ft": 32768,
 		"iS": 8667,
 		"oA": 0,
-		"oAP": "\/docs\/img\/favicons\/apple-icon-144x144.png",
+		"oAP": "/docs/img/favicons/apple-icon-144x144.png",
 		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/favicons\/apple-icon-152x152.png": {
+	"/img/favicons/apple-icon-152x152.png": {
 		"ft": 32768,
 		"iS": 9222,
 		"oA": 0,
-		"oAP": "\/docs\/img\/favicons\/apple-icon-152x152.png",
+		"oAP": "/docs/img/favicons/apple-icon-152x152.png",
 		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/favicons\/apple-icon-180x180.png": {
+	"/img/favicons/apple-icon-180x180.png": {
 		"ft": 32768,
 		"iS": 11002,
 		"oA": 0,
-		"oAP": "\/docs\/img\/favicons\/apple-icon-180x180.png",
+		"oAP": "/docs/img/favicons/apple-icon-180x180.png",
 		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/favicons\/apple-icon-57x57.png": {
+	"/img/favicons/apple-icon-57x57.png": {
 		"ft": 32768,
 		"iS": 3148,
 		"oA": 0,
-		"oAP": "\/docs\/img\/favicons\/apple-icon-57x57.png",
+		"oAP": "/docs/img/favicons/apple-icon-57x57.png",
 		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/favicons\/apple-icon-60x60.png": {
+	"/img/favicons/apple-icon-60x60.png": {
 		"ft": 32768,
 		"iS": 3387,
 		"oA": 0,
-		"oAP": "\/docs\/img\/favicons\/apple-icon-60x60.png",
+		"oAP": "/docs/img/favicons/apple-icon-60x60.png",
 		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/favicons\/apple-icon-72x72.png": {
+	"/img/favicons/apple-icon-72x72.png": {
 		"ft": 32768,
 		"iS": 3946,
 		"oA": 0,
-		"oAP": "\/docs\/img\/favicons\/apple-icon-72x72.png",
+		"oAP": "/docs/img/favicons/apple-icon-72x72.png",
 		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/favicons\/apple-icon-76x76.png": {
+	"/img/favicons/apple-icon-76x76.png": {
 		"ft": 32768,
 		"iS": 4107,
 		"oA": 0,
-		"oAP": "\/docs\/img\/favicons\/apple-icon-76x76.png",
+		"oAP": "/docs/img/favicons/apple-icon-76x76.png",
 		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/favicons\/apple-icon-precomposed.png": {
+	"/img/favicons/apple-icon-precomposed.png": {
 		"ft": 32768,
 		"iS": 8033,
 		"oA": 0,
-		"oAP": "\/docs\/img\/favicons\/apple-icon-precomposed.png",
+		"oAP": "/docs/img/favicons/apple-icon-precomposed.png",
 		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/favicons\/apple-icon.png": {
+	"/img/favicons/apple-icon.png": {
 		"ft": 32768,
 		"iS": 8033,
 		"oA": 0,
-		"oAP": "\/docs\/img\/favicons\/apple-icon.png",
+		"oAP": "/docs/img/favicons/apple-icon.png",
 		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/favicons\/browserconfig.xml": {
+	"/img/favicons/browserconfig.xml": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/docs\/img\/favicons\/browserconfig.xml",
+		"oAP": "/docs/img/favicons/browserconfig.xml",
 		"oF": 1
 		},
-	"\/img\/favicons\/favicon-16x16.png": {
+	"/img/favicons/favicon-16x16.png": {
 		"ft": 32768,
 		"iS": 1278,
 		"oA": 0,
-		"oAP": "\/docs\/img\/favicons\/favicon-16x16.png",
+		"oAP": "/docs/img/favicons/favicon-16x16.png",
 		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/favicons\/favicon-32x32.png": {
+	"/img/favicons/favicon-32x32.png": {
 		"ft": 32768,
 		"iS": 2051,
 		"oA": 0,
-		"oAP": "\/docs\/img\/favicons\/favicon-32x32.png",
+		"oAP": "/docs/img/favicons/favicon-32x32.png",
 		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/favicons\/favicon-96x96.png": {
+	"/img/favicons/favicon-96x96.png": {
 		"ft": 32768,
 		"iS": 5456,
 		"oA": 0,
-		"oAP": "\/docs\/img\/favicons\/favicon-96x96.png",
+		"oAP": "/docs/img/favicons/favicon-96x96.png",
 		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/favicons\/favicon.ico": {
+	"/img/favicons/favicon.ico": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/docs\/img\/favicons\/favicon.ico",
+		"oAP": "/docs/img/favicons/favicon.ico",
 		"oF": 1
 		},
-	"\/img\/favicons\/manifest.json": {
+	"/img/favicons/manifest.json": {
 		"ft": 524288,
 		"oA": 0,
-		"oAP": "\/docs\/img\/favicons\/manifest.json",
+		"oAP": "/docs/img/favicons/manifest.json",
 		"oF": 1,
 		"oO": 0,
 		"oS": 1
 		},
-	"\/img\/favicons\/ms-icon-144x144.png": {
+	"/img/favicons/ms-icon-144x144.png": {
 		"ft": 32768,
 		"iS": 8667,
 		"oA": 0,
-		"oAP": "\/docs\/img\/favicons\/ms-icon-144x144.png",
+		"oAP": "/docs/img/favicons/ms-icon-144x144.png",
 		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/favicons\/ms-icon-150x150.png": {
+	"/img/favicons/ms-icon-150x150.png": {
 		"ft": 32768,
 		"iS": 8968,
 		"oA": 0,
-		"oAP": "\/docs\/img\/favicons\/ms-icon-150x150.png",
+		"oAP": "/docs/img/favicons/ms-icon-150x150.png",
 		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/favicons\/ms-icon-310x310.png": {
+	"/img/favicons/ms-icon-310x310.png": {
 		"ft": 32768,
 		"iS": 24243,
 		"oA": 0,
-		"oAP": "\/docs\/img\/favicons\/ms-icon-310x310.png",
+		"oAP": "/docs/img/favicons/ms-icon-310x310.png",
 		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/favicons\/ms-icon-70x70.png": {
+	"/img/favicons/ms-icon-70x70.png": {
 		"ft": 32768,
 		"iS": 3826,
 		"oA": 0,
-		"oAP": "\/docs\/img\/favicons\/ms-icon-70x70.png",
+		"oAP": "/docs/img/favicons/ms-icon-70x70.png",
 		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/Jon_Urry.svg": {
+	"/img/jon.urry.me.png": {
+		"ft": 32768,
+		"iS": 192019,
+		"oA": 0,
+		"oAP": "/docs/img/jon.urry.me.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/Jon_Urry.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/docs\/img\/Jon_Urry.svg",
+		"oAP": "/docs/img/Jon_Urry.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/img\/portfolio-30px.png": {
+	"/img/portfolio-30px.png": {
 		"ft": 32768,
 		"iS": 1265,
 		"oA": 0,
-		"oAP": "\/docs\/img\/portfolio-30px.png",
+		"oAP": "/docs/img/portfolio-30px.png",
 		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/portfolio-30px.svg": {
+	"/img/portfolio-30px.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/docs\/img\/portfolio-30px.svg",
+		"oAP": "/docs/img/portfolio-30px.svg",
 		"oF": 1,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/img\/portfolio.png": {
+	"/img/portfolio.png": {
 		"ft": 32768,
 		"iS": 11968,
 		"oA": 0,
-		"oAP": "\/docs\/img\/portfolio.png",
+		"oAP": "/docs/img/portfolio.png",
 		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/portfolio.svg": {
+	"/img/portfolio.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/docs\/img\/portfolio.svg",
+		"oAP": "/docs/img/portfolio.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/img\/profile.svg": {
+	"/img/profile.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/docs\/img\/profile.svg",
+		"oAP": "/docs/img/profile.svg",
 		"oF": 1,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/img\/profiles\/andor-miles-board.jpg": {
+	"/img/profiles/andor-miles-board.jpg": {
 		"ft": 16384,
 		"iS": 23164,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/docs\/img\/profiles\/andor-miles-board.jpg",
+		"oAP": "/docs/img/profiles/andor-miles-board.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/img\/profiles\/angela-lyras.jpg": {
+	"/img/profiles/angela-lyras.jpg": {
 		"ft": 16384,
 		"iS": 5588,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/docs\/img\/profiles\/angela-lyras.jpg",
+		"oAP": "/docs/img/profiles/angela-lyras.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/img\/profiles\/catherine-tryfona.jpg": {
+	"/img/profiles/catherine-tryfona.jpg": {
 		"ft": 16384,
 		"iS": 31871,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/docs\/img\/profiles\/catherine-tryfona.jpg",
+		"oAP": "/docs/img/profiles/catherine-tryfona.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/img\/profiles\/dimitris-lyras.jpg": {
+	"/img/profiles/dimitris-lyras.jpg": {
 		"ft": 16384,
 		"iS": 11113,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/docs\/img\/profiles\/dimitris-lyras.jpg",
+		"oAP": "/docs/img/profiles/dimitris-lyras.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/img\/profiles\/edward-norton.jpg": {
+	"/img/profiles/edward-norton.jpg": {
 		"ft": 16384,
 		"iS": 27892,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/docs\/img\/profiles\/edward-norton.jpg",
+		"oAP": "/docs/img/profiles/edward-norton.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/img\/profiles\/hitesh-mistry.jpg": {
+	"/img/profiles/hitesh-mistry.jpg": {
 		"ft": 16384,
 		"iS": 11562,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/docs\/img\/profiles\/hitesh-mistry.jpg",
+		"oAP": "/docs/img/profiles/hitesh-mistry.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/img\/profiles\/jason-spencer.jpg": {
+	"/img/profiles/jason-spencer.jpg": {
 		"ft": 16384,
 		"iS": 21980,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/docs\/img\/profiles\/jason-spencer.jpg",
+		"oAP": "/docs/img/profiles/jason-spencer.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/img\/profiles\/john-sewell.jpg": {
+	"/img/profiles/john-sewell.jpg": {
 		"ft": 16384,
 		"iS": 8221,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/docs\/img\/profiles\/john-sewell.jpg",
+		"oAP": "/docs/img/profiles/john-sewell.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/img\/profiles\/martin-davies.jpg": {
+	"/img/profiles/martin-davies.jpg": {
 		"ft": 16384,
 		"iS": 25265,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/docs\/img\/profiles\/martin-davies.jpg",
+		"oAP": "/docs/img/profiles/martin-davies.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/img\/profiles\/mohammed-amir.jpg": {
+	"/img/profiles/mohammed-amir.jpg": {
 		"ft": 16384,
 		"iS": 21644,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/docs\/img\/profiles\/mohammed-amir.jpg",
+		"oAP": "/docs/img/profiles/mohammed-amir.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/img\/profiles\/nick-loizos.jpg": {
+	"/img/profiles/nick-loizos.jpg": {
 		"ft": 16384,
 		"iS": 4224,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/docs\/img\/profiles\/nick-loizos.jpg",
+		"oAP": "/docs/img/profiles/nick-loizos.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/img\/profiles\/stephen-williamson.jpg": {
+	"/img/profiles/stephen-williamson.jpg": {
 		"ft": 16384,
 		"iS": 15736,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/docs\/img\/profiles\/stephen-williamson.jpg",
+		"oAP": "/docs/img/profiles/stephen-williamson.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/img\/profiles\/stuart-may.jpg": {
+	"/img/profiles/stuart-may.jpg": {
 		"ft": 16384,
 		"iS": 30450,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/docs\/img\/profiles\/stuart-may.jpg",
+		"oAP": "/docs/img/profiles/stuart-may.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/img\/profiles\/will-daniels.jpg": {
+	"/img/profiles/will-daniels.jpg": {
 		"ft": 16384,
 		"iS": 47444,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/docs\/img\/profiles\/will-daniels.jpg",
+		"oAP": "/docs/img/profiles/will-daniels.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/img\/svg\/cv.svg": {
+	"/img/svg/cv.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/docs\/img\/svg\/cv.svg",
+		"oAP": "/docs/img/svg/cv.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/img\/svg\/envelope-closed.svg": {
+	"/img/svg/envelope-closed.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/docs\/img\/svg\/envelope-closed.svg",
+		"oAP": "/docs/img/svg/envelope-closed.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/img\/svg\/facebook.svg": {
+	"/img/svg/facebook.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/docs\/img\/svg\/facebook.svg",
+		"oAP": "/docs/img/svg/facebook.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/img\/svg\/github.svg": {
+	"/img/svg/github.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/docs\/img\/svg\/github.svg",
+		"oAP": "/docs/img/svg/github.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/img\/svg\/ICON-LICENSE": {
+	"/img/svg/ICON-LICENSE": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/docs\/img\/svg\/ICON-LICENSE",
+		"oAP": "/docs/img/svg/ICON-LICENSE",
 		"oF": 0
 		},
-	"\/img\/svg\/instagram.svg": {
+	"/img/svg/instagram.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/docs\/img\/svg\/instagram.svg",
+		"oAP": "/docs/img/svg/instagram.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/img\/svg\/lastfm.svg": {
+	"/img/svg/lastfm.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/docs\/img\/svg\/lastfm.svg",
+		"oAP": "/docs/img/svg/lastfm.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/img\/svg\/linkedin.svg": {
+	"/img/svg/linkedin.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/docs\/img\/svg\/linkedin.svg",
+		"oAP": "/docs/img/svg/linkedin.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/img\/svg\/microphone.svg": {
+	"/img/svg/microphone.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/docs\/img\/svg\/microphone.svg",
+		"oAP": "/docs/img/svg/microphone.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/img\/svg\/phone.svg": {
+	"/img/svg/phone.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/docs\/img\/svg\/phone.svg",
+		"oAP": "/docs/img/svg/phone.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/img\/svg\/README.md": {
+	"/img/svg/README.md": {
 		"cB": 0,
 		"cS": 0,
 		"eF": 1,
@@ -833,7 +844,7 @@
 		"eSQ": 1,
 		"ft": 4096,
 		"oA": 0,
-		"oAP": "\/docs\/img\/svg\/README.html",
+		"oAP": "/docs/img/svg/README.html",
 		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
@@ -842,249 +853,163 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"\/img\/svg\/skype.svg": {
+	"/img/svg/skype.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/docs\/img\/svg\/skype.svg",
+		"oAP": "/docs/img/svg/skype.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/img\/svg\/slack.svg": {
+	"/img/svg/slack.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/docs\/img\/svg\/slack.svg",
+		"oAP": "/docs/img/svg/slack.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/img\/svg\/songkick.svg": {
+	"/img/svg/songkick.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/docs\/img\/svg\/songkick.svg",
+		"oAP": "/docs/img/svg/songkick.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/img\/svg\/spotify.svg": {
+	"/img/svg/spotify.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/docs\/img\/svg\/spotify.svg",
+		"oAP": "/docs/img/svg/spotify.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/img\/svg\/stackoverflow.svg": {
+	"/img/svg/stackoverflow.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/docs\/img\/svg\/stackoverflow.svg",
+		"oAP": "/docs/img/svg/stackoverflow.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/img\/svg\/strava.svg": {
+	"/img/svg/strava.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/docs\/img\/svg\/strava.svg",
+		"oAP": "/docs/img/svg/strava.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/img\/svg\/twitter.svg": {
+	"/img/svg/twitter.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/docs\/img\/svg\/twitter.svg",
+		"oAP": "/docs/img/svg/twitter.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/img\/velo.studio.png": {
+	"/img/velo.studio.png": {
 		"ft": 32768,
 		"iS": 25921,
 		"oA": 0,
-		"oAP": "\/docs\/img\/velo.studio.png",
+		"oAP": "/docs/img/velo.studio.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/index.html": {
+	"/index.html": {
 		"cB": 1,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/docs\/index.html",
+		"oAP": "/docs/index.html",
 		"oF": 0
 		},
-	"\/jonurry.json": {
+	"/jonurry.json": {
 		"ft": 524288,
 		"oA": 2,
-		"oAP": "\/docs\/jonurry.json",
+		"oAP": "/docs/jonurry.json",
 		"oF": 1,
 		"oO": 0,
 		"oS": 1
 		},
-	"\/js\/animateSVG.js": {
+	"/js/animateSVG.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 0,
 		"oA": 1,
-		"oAP": "\/docs\/js\/animateSVG.js",
+		"oAP": "/docs/js/animateSVG.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"\/js\/app.js": {
+	"/js/app.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 0,
 		"oA": 0,
-		"oAP": "\/docs\/js\/app.js",
+		"oAP": "/docs/js/app.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"\/js\/contact\/contact.json": {
+	"/js/resize.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "/docs/js/resize.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/manifest.json": {
 		"ft": 524288,
 		"oA": 0,
-		"oAP": "\/docs\/js\/contact\/contact.json",
+		"oAP": "/docs/manifest.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
 		},
-	"\/js\/resize.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 0,
-		"oA": 1,
-		"oAP": "\/docs\/js\/resize.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/manifest.json": {
-		"ft": 524288,
-		"oA": 0,
-		"oAP": "\/docs\/manifest.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"\/node\/app.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 0,
-		"oA": 1,
-		"oAP": "\/docs\/node\/app.js",
-		"oF": 1,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/node\/app.local.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 0,
-		"oA": 1,
-		"oAP": "\/docs\/node\/app.local.js",
-		"oF": 1,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/node\/config.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "\/docs\/node\/config.json",
-		"oF": 1,
-		"oO": 0,
-		"oS": 1
-		},
-	"\/node\/index.old.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 0,
-		"oA": 1,
-		"oAP": "\/docs\/node\/index.old.js",
-		"oF": 1,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/node\/request-handlers.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 0,
-		"oA": 1,
-		"oAP": "\/docs\/node\/request-handlers.js",
-		"oF": 1,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/node\/router.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 0,
-		"oA": 1,
-		"oAP": "\/docs\/node\/router.js",
-		"oF": 1,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/node\/send-email.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 0,
-		"oA": 1,
-		"oAP": "\/docs\/node\/send-email.js",
-		"oF": 1,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/node\/server.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 0,
-		"oA": 1,
-		"oAP": "\/docs\/node\/server.js",
-		"oF": 1,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/node_modules": {
+	"/node_modules": {
 		"ft": 65536,
 		"oA": 1,
-		"oAP": "\/docs\/node_modules",
-		"oF": 1
+		"oAP": "/docs/node_modules",
+		"oF": 0
 		},
-	"\/package-lock.json": {
+	"/package-lock.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/docs\/package-lock.json",
+		"oAP": "/docs/package-lock.json",
 		"oF": 1,
 		"oO": 0,
 		"oS": 1
 		},
-	"\/package.json": {
+	"/package.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/docs\/package.json",
+		"oAP": "/docs/package.json",
 		"oF": 1,
 		"oO": 0,
 		"oS": 1
 		},
-	"\/readme.md": {
+	"/readme.md": {
 		"cB": 0,
 		"cS": 0,
 		"eF": 1,
@@ -1092,9 +1017,9 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 0,
-		"oAP": "\/docs\/readme.html",
-		"oF": 0,
+		"oA": 2,
+		"oAP": "/docs/readme.md",
+		"oF": 1,
 		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
@@ -1102,11 +1027,11 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"\/sitemap.xml": {
+	"/sitemap.xml": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/docs\/sitemap.xml",
+		"oAP": "/docs/sitemap.xml",
 		"oF": 1
 		}
 	},
@@ -1120,148 +1045,101 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-wonka",
 	"iconImageWasSetByUser": 1,
-	"lastBuiltDate": 552988148
+	"lastBuiltDate": 570472300.77370298
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
 	"alwaysUseExternalServer": 0,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
-	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
 	"autoprefixerEnableIEGrid": 0,
+	"babel7PresetType": 1,
+	"babelAllowRCFiles": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
-	"babelConfigFileHandlingType": 0,
+	"babelConfigType": 0,
 	"babelCustomPluginsList": "",
 	"babelCustomPresetsList": "",
 	"babelInsertModuleIDs": 0,
 	"babelModuleID": "",
 	"babelNoComments": 0,
 	"babelPlugins": {
+		"arrow-functions": {
+			"active": 0
+			},
 		"async-generator-functions": {
 			"active": 0
 			},
 		"async-to-generator": {
 			"active": 0
 			},
-		"async-to-module-method": {
+		"block-scoped-functions": {
+			"active": 0
+			},
+		"block-scoping": {
 			"active": 0
 			},
 		"class-properties": {
 			"active": 0
 			},
+		"classes": {
+			"active": 0
+			},
+		"computed-properties": {
+			"active": 0
+			},
 		"decorators": {
 			"active": 0
 			},
-		"decorators-legacy": {
+		"destructuring": {
 			"active": 0
 			},
 		"do-expressions": {
 			"active": 0
 			},
-		"es2015-arrow-functions": {
+		"dotall-regex": {
 			"active": 0
 			},
-		"es2015-block-scoped-functions": {
-			"active": 0
-			},
-		"es2015-block-scoping": {
-			"active": 0
-			},
-		"es2015-classes": {
-			"active": 0
-			},
-		"es2015-computed-properties": {
-			"active": 0
-			},
-		"es2015-constants": {
-			"active": 0
-			},
-		"es2015-destructuring": {
-			"active": 0
-			},
-		"es2015-duplicate-keys": {
-			"active": 0
-			},
-		"es2015-for-of": {
-			"active": 0
-			},
-		"es2015-function-name": {
-			"active": 0
-			},
-		"es2015-literals": {
-			"active": 0
-			},
-		"es2015-modules-amd": {
-			"active": 0
-			},
-		"es2015-modules-commonjs": {
-			"active": 0
-			},
-		"es2015-modules-systemjs": {
-			"active": 0
-			},
-		"es2015-modules-umd": {
-			"active": 0
-			},
-		"es2015-object-super": {
-			"active": 0
-			},
-		"es2015-parameters": {
-			"active": 0
-			},
-		"es2015-shorthand-properties": {
-			"active": 0
-			},
-		"es2015-spread": {
-			"active": 0
-			},
-		"es2015-sticky-regex": {
-			"active": 0
-			},
-		"es2015-template-literals": {
-			"active": 0
-			},
-		"es2015-typeof-symbol": {
-			"active": 0
-			},
-		"es2015-unicode-regex": {
-			"active": 0
-			},
-		"es3-member-expression-literals": {
-			"active": 0
-			},
-		"es3-property-literals": {
-			"active": 0
-			},
-		"es5-property-mutators": {
-			"active": 0
-			},
-		"eval": {
+		"duplicate-keys": {
 			"active": 0
 			},
 		"exponentiation-operator": {
 			"active": 0
 			},
-		"export-extensions": {
+		"export-default-from": {
+			"active": 0
+			},
+		"export-namespace-from": {
 			"active": 0
 			},
 		"external-helpers": {
 			"active": 0
 			},
-		"flow-comments": {
+		"flow-strip-types": {
 			"active": 0
 			},
-		"flow-strip-types": {
+		"for-of": {
 			"active": 0
 			},
 		"function-bind": {
 			"active": 0
 			},
-		"inline-environment-variables": {
+		"function-name": {
+			"active": 0
+			},
+		"function-sent": {
+			"active": 0
+			},
+		"instanceof": {
 			"active": 0
 			},
 		"jscript": {
+			"active": 0
+			},
+		"literals": {
+			"active": 0
+			},
+		"logical-assignment-operators": {
 			"active": 0
 			},
 		"member-expression-literals": {
@@ -1273,7 +1151,28 @@
 		"minify-booleans": {
 			"active": 0
 			},
+		"modules-amd": {
+			"active": 0
+			},
+		"modules-commonjs": {
+			"active": 0
+			},
+		"modules-systemjs": {
+			"active": 0
+			},
+		"modules-umd": {
+			"active": 0
+			},
+		"new-target": {
+			"active": 0
+			},
 		"node-env-inline": {
+			"active": 0
+			},
+		"nullish-coalescing-operator": {
+			"active": 0
+			},
+		"numeric-separator": {
 			"active": 0
 			},
 		"object-assign": {
@@ -1285,7 +1184,25 @@
 		"object-set-prototype-of-to-assign": {
 			"active": 0
 			},
+		"object-super": {
+			"active": 0
+			},
+		"optional-catch-binding": {
+			"active": 0
+			},
+		"optional-chaining": {
+			"active": 0
+			},
+		"parameters": {
+			"active": 0
+			},
+		"pipeline-operator": {
+			"active": 0
+			},
 		"property-literals": {
+			"active": 0
+			},
+		"property-mutators": {
 			"active": 0
 			},
 		"proto-to-assign": {
@@ -1321,53 +1238,46 @@
 		"remove-debugger": {
 			"active": 0
 			},
+		"reserved-words": {
+			"active": 0
+			},
 		"runtime": {
+			"active": 0
+			},
+		"shorthand-properties": {
 			"active": 0
 			},
 		"simplify-comparison-operators": {
 			"active": 0
 			},
+		"spread": {
+			"active": 0
+			},
+		"sticky-regex": {
+			"active": 0
+			},
 		"strict-mode": {
 			"active": 0
 			},
-		"syntax-async-generators": {
+		"template-literals": {
 			"active": 0
 			},
-		"syntax-class-properties": {
+		"throw-expressions": {
 			"active": 0
 			},
-		"syntax-decorators": {
-			"active": 0
-			},
-		"syntax-do-expressions": {
-			"active": 0
-			},
-		"syntax-export-extensions": {
-			"active": 0
-			},
-		"syntax-flow": {
-			"active": 0
-			},
-		"syntax-function-bind": {
-			"active": 0
-			},
-		"syntax-function-sent": {
-			"active": 0
-			},
-		"syntax-jsx": {
-			"active": 0
-			},
-		"syntax-object-rest-spread": {
-			"active": 0
-			},
-		"undeclared-variables-check": {
+		"typeof-symbol": {
 			"active": 0
 			},
 		"undefined-to-void": {
 			"active": 0
+			},
+		"unicode-property-regex": {
+			"active": 0
+			},
+		"unicode-regex": {
+			"active": 0
 			}
 		},
-	"babelPresetType": 193,
 	"babelRetainLines": 0,
 	"bowerAbbreviatedPath": "bower_components",
 	"bowerAutoCreateInfoFile": 1,
@@ -1376,6 +1286,7 @@
 	"bowerSaveDevDependencies": 0,
 	"bowerUseExactVersion": 0,
 	"browserRefreshDelay": 0,
+	"browserslistString": ">0.2%, last 2 versions, Firefox ESR, not dead",
 	"buildFolderActive": 1,
 	"buildFolderName": "docs",
 	"cleanBuild": 1,
@@ -1733,6 +1644,10 @@
 			"active": 0,
 			"optionString": "'always', {exceptAfterSingleLine: false}"
 			},
+		"max-classes-per-file": {
+			"active": 0,
+			"optionString": "1"
+			},
 		"max-depth": {
 			"active": 0,
 			"optionString": "{'max': 4}"
@@ -1744,6 +1659,10 @@
 		"max-lines": {
 			"active": 0,
 			"optionString": "{'max': 300, 'skipBlankLines': true, 'skipComments': true}"
+			},
+		"max-lines-per-function": {
+			"active": 0,
+			"optionString": "{'max': 50, 'skipBlankLines': true, 'skipComments': true, 'IIFEs': false}"
 			},
 		"max-nested-callbacks": {
 			"active": 0,
@@ -1789,6 +1708,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-async-promise-executor": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-await-in-loop": {
 			"active": 0,
 			"optionString": ""
@@ -1807,10 +1730,6 @@
 			},
 		"no-case-declarations": {
 			"active": 1,
-			"optionString": ""
-			},
-		"no-catch-shadow": {
-			"active": 0,
 			"optionString": ""
 			},
 		"no-class-assign": {
@@ -2009,9 +1928,13 @@
 			"active": 0,
 			"optionString": "{'ignore': [], 'ignoreArrayIndexes': true, 'enforceConst': false, 'detectObjects': false}"
 			},
+		"no-misleading-character-class": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-mixed-operators": {
 			"active": 0,
-			"optionString": "{'groups': [['+', '-', '*', '\/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
+			"optionString": "{'groups': [['+', '-', '*', '/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
 			},
 		"no-mixed-requires": {
 			"active": 0,
@@ -2365,6 +2288,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"prefer-object-spread": {
+			"active": 0,
+			"optionString": ""
+			},
 		"prefer-promise-reject-errors": {
 			"active": 0,
 			"optionString": "{'allowEmptyReject': false}"
@@ -2393,6 +2320,10 @@
 			"active": 0,
 			"optionString": "'always'"
 			},
+		"require-atomic-updates": {
+			"active": 0,
+			"optionString": ""
+			},
 		"require-await": {
 			"active": 0,
 			"optionString": ""
@@ -2400,6 +2331,10 @@
 		"require-jsdoc": {
 			"active": 0,
 			"optionString": "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false, 'ArrowFunctionExpression': false}}"
+			},
+		"require-unicode-regexp": {
+			"active": 0,
+			"optionString": ""
 			},
 		"require-yield": {
 			"active": 1,
@@ -2455,7 +2390,7 @@
 			},
 		"spaced-comment": {
 			"active": 0,
-			"optionString": "'always', {'line': {'markers': ['\/'], 'exceptions': ['-', '+']}, 'block': {'markers': ['!'], 'exceptions': ['*'], 'balanced': false}}"
+			"optionString": "'always', {'line': {'markers': ['/'], 'exceptions': ['-', '+']}, 'block': {'markers': ['!'], 'exceptions': ['*'], 'balanced': false}}"
 			},
 		"strict": {
 			"active": 0,
@@ -2515,7 +2450,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "http:\/\/localhost:8888",
+	"externalServerAddress": "http://localhost:8888",
 	"gitIgnoreBuildFolder": 0,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",
@@ -2910,7 +2845,6 @@
 		"escapeHTMLCharacters": 0,
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
-		"outputStyle": 0,
 		"shouldRunCacheBuster": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
@@ -2929,7 +2863,7 @@
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.js",
-		"autoOutputPathRelativePath": "\/min",
+		"autoOutputPathRelativePath": "/min",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
@@ -2961,19 +2895,19 @@
 		"allowInsecureImports": 0,
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "less",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 0,
 		"createSourceMap": 1,
-		"disableJavascript": 0,
+		"enableJavascript": 0,
 		"ieCompatibility": 1,
+		"mathStyle": 0,
 		"outputStyle": 0,
-		"relativeURLS": 0,
+		"rewriteURLStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"strictImports": 0,
-		"strictMath": 0,
 		"strictUnits": 0
 		},
 	"languageDefaultsMARKDOWN": {
@@ -3029,7 +2963,7 @@
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 0,
@@ -3058,7 +2992,7 @@
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "stylus",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 0,
@@ -3082,36 +3016,70 @@
 	"languageDefaultsTS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.js",
-		"autoOutputPathRelativePath": "\/js",
+		"autoOutputPathRelativePath": "/js",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"createDeclarationFile": 0,
 		"createSourceMap": 0,
-		"jsxMode": 0,
 		"minifyOutput": 0,
 		"moduleResolutionType": 0,
 		"moduleType": 2,
-		"noImplicitAny": 0,
-		"preserveConstEnums": 0,
 		"removeComments": 0,
-		"suppressImplicitAnyIndexErrors": 0,
 		"targetECMAVersion": 0
 		},
 	"languageDefaultsUserDefined": [
 		],
 	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
-	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, /storage/framework/sessions, node_modules",
 	"sourceFolderName": "source",
 	"susyVersion": 3,
+	"tsAllowSyntheticDefaultImports": 0,
+	"tsAllowUnreachableCode": 0,
+	"tsAllowUnusedLabels": 0,
+	"tsAlwaysStrict": 0,
+	"tsDownlevelIteration": 0,
+	"tsEmitBOM": 0,
+	"tsEmitDecoratorMetadata": 0,
+	"tsESModuleInterop": 0,
+	"tsForceConsistentCasingInFileNames": 0,
+	"tsImportHelpers": 0,
+	"tsIsolatedModules": 0,
+	"tsJSXFactory": "React.createElement",
+	"tsKeyofStringsOnly": 0,
+	"tsNoEmitHelpers": 0,
+	"tsNoFallthroughCasesInSwitch": 0,
+	"tsNoImplicitAny": 0,
+	"tsNoImplicitReturns": 0,
+	"tsNoImplicitThis": 0,
+	"tsNoImplicitUseStrict": 0,
+	"tsNoLib": 0,
+	"tsNoResolve": 0,
+	"tsNoStrictGenericChecks": 0,
+	"tsNoUnusedLocals": 0,
+	"tsNoUnusedParameters": 0,
+	"tsPreserveConstEnums": 0,
+	"tsPreserveSymlinks": 0,
+	"tsResolveJsonModule": 0,
+	"tsSkipLibCheck": 0,
+	"tsStrictFunctionTypes": 0,
+	"tsStrictNullChecks": 0,
+	"tsStrictPropertyInitialization": 0,
+	"tsStripInternal": 0,
+	"tsSuppressExcessPropertyErrors": 0,
+	"tsSuppressImplicitAnyIndexErrors": 0,
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
-		"ascii-only": {
+		"arguments": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"ascii_only": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"bare-returns": {
+		"bare_returns": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -3119,11 +3087,11 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"bracketize": {
+		"braces": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"cascade": {
+		"collapse_vars": {
 			"active": 1,
 			"flagValue": -1
 			},
@@ -3147,6 +3115,10 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"directives": {
+			"active": 1,
+			"flagValue": -1
+			},
 		"drop_console": {
 			"active": 0,
 			"flagValue": -1
@@ -3163,7 +3135,15 @@
 			"active": 1,
 			"flagValue": -1
 			},
+		"expression": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"hoist_funs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_props": {
 			"active": 1,
 			"flagValue": -1
 			},
@@ -3171,20 +3151,32 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"if_return": {
+		"html5_comments": {
 			"active": 1,
 			"flagValue": -1
 			},
-		"indent-level": {
+		"ie8": {
 			"active": 0,
-			"flagValue": 4
+			"flagValue": -1
+			},
+		"if_return": {
+			"active": 1,
+			"flagValue": -1
 			},
 		"indent-start": {
 			"active": 0,
 			"flagValue": 0
 			},
-		"inline-script": {
+		"indent_level": {
 			"active": 0,
+			"flagValue": 4
+			},
+		"inline": {
+			"active": 1,
+			"flagValue": 3
+			},
+		"inline_script": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"join_vars": {
@@ -3199,6 +3191,14 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"keep_infinity": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"keep_quoted_props": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"loops": {
 			"active": 1,
 			"flagValue": -1
@@ -3207,12 +3207,20 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"max-line-len": {
+		"max_line_len": {
 			"active": 1,
 			"flagValue": 32000
 			},
 		"negate_iife": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"passes": {
+			"active": 1,
+			"flagValue": 1
+			},
+		"preserve_line": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"properties": {
@@ -3223,11 +3231,19 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"quote-keys": {
+		"quote_keys": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"screw-ie8": {
+		"quote_style": {
+			"active": 1,
+			"flagValue": 0
+			},
+		"reduce_funcs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"reduce_vars": {
 			"active": 1,
 			"flagValue": -1
 			},
@@ -3239,23 +3255,51 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"sort": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"space-colon": {
+		"shebang": {
 			"active": 1,
 			"flagValue": -1
 			},
-		"support-ie8": {
-			"active": 0,
+		"side_effects": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"switches": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"toplevel": {
 			"active": 0,
 			"flagValue": -1
 			},
+		"typeofs": {
+			"active": 1,
+			"flagValue": -1
+			},
 		"unsafe": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_comps": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_Function": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_math": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_proto": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_regexp": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_undefined": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -3267,13 +3311,21 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"webkit": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"width": {
 			"active": 1,
 			"flagValue": 80
+			},
+		"wrap_iife": {
+			"active": 0,
+			"flagValue": -1
 			}
 		},
 	"uglifyReservedNamesString": "$",
-	"websiteRelativeRoot": "\/docs"
+	"websiteRelativeRoot": "/docs"
 	},
 "settingsFileVersion": "3"
 }
